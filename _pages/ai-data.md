@@ -19,11 +19,28 @@ This is the research-lab side of the archive: models, datasets, notebooks, exper
 
 ## Featured Projects
 
-Add your strongest projects here first. Keep each one simple:
-
-- **Project name**: what it does, why it matters, tools used, and a link to the repo or demo.
-- **Project name**: the problem, the data, the model, the result, and what you learned.
-- **Project name**: a short case study with screenshots or charts when you have them.
+{% assign projects = site.projects | sort: "date" | reverse %}
+{% if projects.size > 0 %}
+  <div class="project-list">
+  {% for project in projects %}
+    <article class="project-card">
+      <p class="project-card__meta">
+        {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+        {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+      </p>
+      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      {% if project.excerpt %}
+        <p>{{ project.excerpt | markdownify | strip_html }}</p>
+      {% endif %}
+      {% if project.tools %}
+        <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+  </div>
+{% else %}
+  <p>No projects are published yet. When you add files to <code>_projects</code>, they will appear here automatically.</p>
+{% endif %}
 
 ## Technical Notes
 

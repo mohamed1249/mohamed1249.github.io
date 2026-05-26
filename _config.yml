@@ -104,6 +104,12 @@ social:
   name                   : "Muhammad Abdulsalam"
   links:
     - "https://mohamed1249.github.io/"
+    - "https://www.linkedin.com/in/muhammad-abdulsalam-b127641b9/"
+    - "https://www.upwork.com/freelancers/~013038ca3df5c0c143"
+    - "https://www.instagram.com/salam9.1/"
+    - "https://open.spotify.com/playlist/48eiTVTw1XtjshzxKaY0TI"
+    - "https://www.kaggle.com/work"
+    - "https://x.com/M_A20024444"
 
 # Analytics
 analytics:
@@ -119,34 +125,58 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "AI engineer and data scientist with a poet's habit of listening closely."
   location         : "Cairo, Egypt"
-  email            :
+  email            : "mohameedmtmn@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://mohamed1249.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/muhammad-abdulsalam-b127641b9/"
+    - label: "Upwork"
+      icon: "fas fa-fw fa-briefcase"
+      url: "https://www.upwork.com/freelancers/~013038ca3df5c0c143"
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/work"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mohamed1249"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/salam9.1/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/playlist/48eiTVTw1XtjshzxKaY0TI"
+    - label: "X"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://x.com/M_A20024444"
 
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:mohameedmtmn@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mohamed1249"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://mohamed1249.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/muhammad-abdulsalam-b127641b9/"
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/work"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/playlist/48eiTVTw1XtjshzxKaY0TI"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/salam9.1/"
+    - label: "X"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://x.com/M_A20024444"
   since: "2026"
 
 
@@ -154,6 +184,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -180,6 +211,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - templates
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
@@ -220,6 +252,13 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 
 # Pagination with jekyll-paginate
@@ -312,6 +351,14 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
   # _posts
   - scope:
       path: ""

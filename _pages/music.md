@@ -10,6 +10,9 @@ Music as memory, mood, and architecture. This page is for playlists, songs, albu
 
 ## Playlists
 
+My current public playlist:
+[open on Spotify](https://open.spotify.com/playlist/48eiTVTw1XtjshzxKaY0TI?si=5gSG7W_NTwC6sjoEBHAoVA&pi=7mX8aNQzQdKvm).
+
 | Mood | Playlist Notes |
 | --- | --- |
 | Deep focus | Tracks for coding, reading, and disappearing into a problem. |
