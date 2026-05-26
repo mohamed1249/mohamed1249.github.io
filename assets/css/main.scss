@@ -47,8 +47,24 @@ body {
 .site-title,
 .greedy-nav a,
 .page__title,
-.archive__item-title {
+.archive__item-title,
+.archive__item-title a,
+.page__content,
+.archive,
+.page,
+#main {
   color: var(--ma-ink);
+}
+
+.site-subtitle,
+.author__bio,
+.author__urls,
+.page__meta,
+.page__date,
+.archive__item-excerpt,
+.breadcrumbs,
+.breadcrumbs a {
+  color: var(--ma-muted);
 }
 
 .greedy-nav {
@@ -59,9 +75,31 @@ body {
   color: var(--ma-red);
 }
 
+.greedy-nav .visible-links a::before {
+  background: var(--ma-red);
+}
+
 .page__footer {
   background: #efe2d1;
   border-top: 1px solid var(--ma-line);
+  color: var(--ma-ink);
+}
+
+.page__footer a,
+.page__footer-copyright,
+.page__footer-follow,
+.page__footer-follow a,
+.social-icons .fas,
+.social-icons .fab,
+.social-icons .far {
+  color: var(--ma-muted);
+}
+
+.page__footer a:hover,
+.social-icons a:hover .fas,
+.social-icons a:hover .fab,
+.social-icons a:hover .far {
+  color: var(--ma-red);
 }
 
 .page__content {
@@ -76,6 +114,25 @@ body {
 
 .page__content a {
   color: var(--ma-green);
+}
+
+.btn,
+.btn:visited,
+.btn--inverse,
+.btn--inverse:visited,
+.btn--primary,
+.btn--primary:visited {
+  border-color: rgba(79, 125, 77, 0.34);
+  color: var(--ma-ink);
+  background: rgba(255, 253, 248, 0.82);
+}
+
+.btn:hover,
+.btn--inverse:hover,
+.btn--primary:hover {
+  border-color: rgba(167, 53, 53, 0.46);
+  color: #fffdf8;
+  background: var(--ma-red);
 }
 
 .page-intro {
@@ -193,6 +250,12 @@ body {
   color: var(--ma-ink);
   background: rgba(255, 250, 241, 0.96);
   transform: translateY(-3px);
+}
+
+.constellation-card:visited,
+.constellation-card h2,
+.constellation-card h2 a {
+  color: var(--ma-ink);
 }
 
 .constellation-card span {
