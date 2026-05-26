@@ -86,9 +86,13 @@ body {
 }
 
 .page__footer a,
+.page__footer a:visited,
+.page__footer .social-icons a,
+.page__footer .social-icons a:visited,
 .page__footer-copyright,
 .page__footer-follow,
 .page__footer-follow a,
+.page__footer-follow a:visited,
 .social-icons .fas,
 .social-icons .fab,
 .social-icons .far {
@@ -96,10 +100,30 @@ body {
 }
 
 .page__footer a:hover,
+.page__footer .social-icons a:hover,
 .social-icons a:hover .fas,
 .social-icons a:hover .fab,
 .social-icons a:hover .far {
   color: var(--ma-red);
+}
+
+.page__footer .social-icons a .label,
+.page__footer .social-icons a:visited .label,
+.page__footer .social-icons .fas,
+.page__footer .social-icons .fab,
+.page__footer .social-icons .far,
+.page__footer .social-icons svg {
+  color: var(--ma-muted);
+  fill: currentColor;
+}
+
+.page__footer .social-icons a:hover .label,
+.page__footer .social-icons a:hover .fas,
+.page__footer .social-icons a:hover .fab,
+.page__footer .social-icons a:hover .far,
+.page__footer .social-icons a:hover svg {
+  color: var(--ma-red);
+  fill: currentColor;
 }
 
 .page__content {
