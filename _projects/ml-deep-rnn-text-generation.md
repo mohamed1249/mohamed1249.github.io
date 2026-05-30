@@ -1,6 +1,6 @@
 ---
 title: "ML: Deep RNN (LSTM) Text Generation on Moby Dick"
-date: 2024-03-28
+date: 2022-11-01
 status: "Completed"
 tools:
   - Python
