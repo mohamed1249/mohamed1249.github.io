@@ -2,6 +2,7 @@
 title: "Library: M-Ana Data Science Package"
 date: 2023-03-18
 status: "Alpha / v0.1.0"
+field: "Tool"
 tools:
   - Python
   - Pandas

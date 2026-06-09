@@ -2,6 +2,7 @@
 title: "AI: Doctor Intelligent Graduation Project"
 date: 2024-09-06
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - Flask

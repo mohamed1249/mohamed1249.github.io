@@ -2,6 +2,7 @@
 title: "EDA: Google Play Store — Data Wrangling"
 date: 2022-12-02
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

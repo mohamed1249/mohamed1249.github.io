@@ -2,6 +2,7 @@
 title: "ML: Text Classification for Women's Clothing Reviews"
 date: 2023-02-22
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

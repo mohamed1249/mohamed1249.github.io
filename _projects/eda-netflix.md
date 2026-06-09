@@ -2,6 +2,7 @@
 title: "EDA: Netflix Movies & TV Shows"
 date: 2022-05-15
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

@@ -2,6 +2,7 @@
 title: "Project Title"
 date: 2026-05-27
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

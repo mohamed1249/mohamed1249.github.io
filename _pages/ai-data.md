@@ -20,23 +20,156 @@ This is the research-lab side of the archive: models, datasets, notebooks, exper
 ## Featured Projects
 
 {% assign projects = site.projects | sort: "date" | reverse %}
+{% assign ai_projects = projects | where: "field", "AI" %}
+{% assign ml_projects = projects | where: "field", "ML" %}
+{% assign eda_projects = projects | where: "field", "EDA" %}
+{% assign stats_projects = projects | where: "field", "Stats" %}
+{% assign tool_projects = projects | where: "field", "Tool" %}
 {% if projects.size > 0 %}
-  <div class="project-list">
-  {% for project in projects %}
-    <article class="project-card">
-      <p class="project-card__meta">
-        {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
-        {% if project.status %}<span>{{ project.status }}</span>{% endif %}
-      </p>
-      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-      {% if project.excerpt %}
-        <p>{{ project.excerpt | markdownify | strip_html }}</p>
-      {% endif %}
-      {% if project.tools %}
-        <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
-      {% endif %}
-    </article>
-  {% endfor %}
+  <div class="project-tabs">
+    <input type="radio" id="projects-all" name="project-tabs" checked>
+    <input type="radio" id="projects-ai" name="project-tabs">
+    <input type="radio" id="projects-ml" name="project-tabs">
+    <input type="radio" id="projects-eda" name="project-tabs">
+    <input type="radio" id="projects-stats" name="project-tabs">
+    <input type="radio" id="projects-tool" name="project-tabs">
+
+    <div class="project-tab-nav" aria-label="Project categories">
+      <label for="projects-all">All <span>{{ projects.size }}</span></label>
+      <label for="projects-ai">AI <span>{{ ai_projects.size }}</span></label>
+      <label for="projects-ml">ML <span>{{ ml_projects.size }}</span></label>
+      <label for="projects-eda">EDA <span>{{ eda_projects.size }}</span></label>
+      <label for="projects-stats">Stats <span>{{ stats_projects.size }}</span></label>
+      <label for="projects-tool">Tools <span>{{ tool_projects.size }}</span></label>
+    </div>
+
+    <div class="project-tab-panels">
+      <section class="project-panel project-panel--all">
+        <div class="project-list">
+        {% for project in projects %}
+          <article class="project-card">
+            <p class="project-card__meta">
+              {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+              {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+              {% if project.field %}<span>{{ project.field }}</span>{% endif %}
+            </p>
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}
+              <p>{{ project.excerpt | markdownify | strip_html }}</p>
+            {% endif %}
+            {% if project.tools %}
+              <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+
+      <section class="project-panel project-panel--ai">
+        <div class="project-list">
+        {% for project in ai_projects %}
+          <article class="project-card">
+            <p class="project-card__meta">
+              {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+              {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+              <span>AI</span>
+            </p>
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}
+              <p>{{ project.excerpt | markdownify | strip_html }}</p>
+            {% endif %}
+            {% if project.tools %}
+              <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+
+      <section class="project-panel project-panel--ml">
+        <div class="project-list">
+        {% for project in ml_projects %}
+          <article class="project-card">
+            <p class="project-card__meta">
+              {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+              {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+              <span>ML</span>
+            </p>
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}
+              <p>{{ project.excerpt | markdownify | strip_html }}</p>
+            {% endif %}
+            {% if project.tools %}
+              <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+
+      <section class="project-panel project-panel--eda">
+        <div class="project-list">
+        {% for project in eda_projects %}
+          <article class="project-card">
+            <p class="project-card__meta">
+              {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+              {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+              <span>EDA</span>
+            </p>
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}
+              <p>{{ project.excerpt | markdownify | strip_html }}</p>
+            {% endif %}
+            {% if project.tools %}
+              <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+
+      <section class="project-panel project-panel--stats">
+        <div class="project-list">
+        {% for project in stats_projects %}
+          <article class="project-card">
+            <p class="project-card__meta">
+              {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+              {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+              <span>Stats</span>
+            </p>
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}
+              <p>{{ project.excerpt | markdownify | strip_html }}</p>
+            {% endif %}
+            {% if project.tools %}
+              <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+
+      <section class="project-panel project-panel--tool">
+        <div class="project-list">
+        {% for project in tool_projects %}
+          <article class="project-card">
+            <p class="project-card__meta">
+              {% if project.date %}{{ project.date | date: "%Y" }}{% endif %}
+              {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+              <span>Tool</span>
+            </p>
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}
+              <p>{{ project.excerpt | markdownify | strip_html }}</p>
+            {% endif %}
+            {% if project.tools %}
+              <p class="project-card__tools">{{ project.tools | join: " . " }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+    </div>
   </div>
 {% else %}
   <p>No projects are published yet. When you add files to <code>_projects</code>, they will appear here automatically.</p>

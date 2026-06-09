@@ -2,6 +2,7 @@
 title: "EDA: Goodreads — What Makes a Perfect Book?"
 date: 2022-10-10
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

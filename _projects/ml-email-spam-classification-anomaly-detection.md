@@ -2,6 +2,7 @@
 title: "ML: Email Spam Classification & Anomaly Detection"
 date: 2022-09-27
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

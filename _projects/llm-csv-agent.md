@@ -2,6 +2,7 @@
 title: "AI: LLM CSV Agent"
 date: 2024-11-10
 status: "Prototype"
+field: "AI"
 tools:
   - Python
   - LangChain

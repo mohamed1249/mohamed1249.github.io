@@ -1,7 +1,8 @@
 ---
-title: "ML: IMDB Sentiment Classification with Fine-Tuned BERT"
+title: "AI: IMDB Sentiment Classification with Fine-Tuned BERT"
 date: 2024-07-14
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - PyTorch

@@ -2,6 +2,7 @@
 title: "EDA: IMDB / TMDb — Deep Movie Analysis"
 date: 2024-05-01
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

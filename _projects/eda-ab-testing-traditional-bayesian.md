@@ -2,6 +2,7 @@
 title: "EDA: Traditional vs. Bayesian A/B Testing"
 date: 2025-05-03
 status: "Completed"
+field: "Stats"
 tools:
   - Python
   - Pandas

@@ -2,6 +2,7 @@
 title: "EDA + ML: Music Trends Analysis & ANN Trendiness Prediction"
 date: 2024-11-17
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - PyTorch

@@ -2,6 +2,7 @@
 title: "ML: Lyric Embeddings for Music Recommendations"
 date: 2025-09-30
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Sentence Transformers (all-mpnet-base-v2)

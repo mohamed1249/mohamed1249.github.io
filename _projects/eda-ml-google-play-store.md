@@ -2,6 +2,7 @@
 title: "EDA + ML: Google Play Store App Analysis & Rating Prediction"
 date: 2022-06-08
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

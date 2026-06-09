@@ -2,6 +2,7 @@
 title: "Tool: Phone Video Compressor"
 date: 2026-05-24
 status: "Completed"
+field: "Tool"
 tools:
   - Python
   - ADB

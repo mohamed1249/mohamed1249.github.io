@@ -1,7 +1,8 @@
 ---
-title: "ML: LLM-Powered Product Recommendation System (davinci-instruct-beta)"
+title: "AI: LLM-Powered Product Recommendation System (davinci-instruct-beta)"
 date: 2023-09-20
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - OpenAI API (davinci-instruct-beta)

@@ -2,6 +2,7 @@
 title: "ML: US Accidents Severity & Count Prediction"
 date: 2022-03-14
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

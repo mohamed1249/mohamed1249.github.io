@@ -2,6 +2,7 @@
 title: "EDA: E-Commerce — eBay, Flipkart & Pakistan Market Analysis"
 date: 2021-11-28
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

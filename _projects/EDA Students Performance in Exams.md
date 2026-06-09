@@ -2,6 +2,7 @@
 title: "EDA: Students Performance in Exams"
 date: 2022-04-01
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

@@ -1,7 +1,8 @@
 ---
-title: "ML: ASL Recognition with TinyVGG & Custom CNN (100% Accuracy)"
+title: "AI: ASL Recognition with TinyVGG & Custom CNN (100% Accuracy)"
 date: 2024-01-27
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - PyTorch

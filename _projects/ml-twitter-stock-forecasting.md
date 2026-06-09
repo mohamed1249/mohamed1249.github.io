@@ -2,6 +2,7 @@
 title: "ML: Twitter Stock Price Forecasting with ARIMA, SARIMA & NeuralProphet"
 date: 2022-04-20
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

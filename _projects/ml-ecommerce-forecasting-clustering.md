@@ -2,6 +2,7 @@
 title: "ML: E-Commerce Sales Forecasting & Customer Clustering"
 date: 2022-02-07
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

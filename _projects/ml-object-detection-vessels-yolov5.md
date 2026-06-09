@@ -1,7 +1,8 @@
 ---
-title: "ML: Vessel Object Detection with YOLOv5"
+title: "AI: Vessel Object Detection with YOLOv5"
 date: 2023-07-02
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - YOLOv5 (Ultralytics)

@@ -2,6 +2,7 @@
 title: "ML: Goodreads Book Search Engine"
 date: 2022-11-24
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

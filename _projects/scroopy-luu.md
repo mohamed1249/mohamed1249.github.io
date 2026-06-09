@@ -2,6 +2,7 @@
 title: "Tool: Scroopy-Luu Web Scraper"
 date: 2025-03-05
 status: "Completed"
+field: "Tool"
 tools:
   - Python
   - Streamlit

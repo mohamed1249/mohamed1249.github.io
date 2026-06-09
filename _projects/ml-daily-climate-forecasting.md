@@ -2,6 +2,7 @@
 title: "ML: Daily Climate Time Series Forecasting"
 date: 2022-01-10
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

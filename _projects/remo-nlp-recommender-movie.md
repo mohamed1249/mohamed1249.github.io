@@ -2,6 +2,7 @@
 title: "ReMo: NLP Movie Recommender System"
 date: 2025-08-31
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

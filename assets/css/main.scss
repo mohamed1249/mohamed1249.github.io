@@ -400,6 +400,81 @@ blockquote {
   margin: 1.4rem 0 2rem;
 }
 
+.project-tabs {
+  margin-top: 1.2rem;
+}
+
+.project-tabs > input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-tab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--ma-line);
+}
+
+.project-tab-nav label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.35rem;
+  padding: 0.48rem 0.72rem;
+  border: 1px solid rgba(79, 125, 77, 0.22);
+  border-radius: 999px;
+  color: var(--ma-ink);
+  background: rgba(255, 253, 248, 0.72);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.project-tab-nav label:hover {
+  border-color: rgba(167, 53, 53, 0.36);
+  color: var(--ma-red);
+}
+
+.project-tab-nav label span {
+  display: inline-grid;
+  min-width: 1.45rem;
+  height: 1.45rem;
+  place-items: center;
+  border-radius: 999px;
+  color: var(--ma-green);
+  background: rgba(238, 246, 233, 0.9);
+  font-size: 0.72rem;
+}
+
+.project-panel {
+  display: none;
+}
+
+#projects-all:checked ~ .project-tab-nav label[for="projects-all"],
+#projects-ai:checked ~ .project-tab-nav label[for="projects-ai"],
+#projects-ml:checked ~ .project-tab-nav label[for="projects-ml"],
+#projects-eda:checked ~ .project-tab-nav label[for="projects-eda"],
+#projects-stats:checked ~ .project-tab-nav label[for="projects-stats"],
+#projects-tool:checked ~ .project-tab-nav label[for="projects-tool"] {
+  border-color: rgba(79, 125, 77, 0.44);
+  color: var(--ma-ink);
+  background: #eef6e9;
+}
+
+#projects-all:checked ~ .project-tab-panels .project-panel--all,
+#projects-ai:checked ~ .project-tab-panels .project-panel--ai,
+#projects-ml:checked ~ .project-tab-panels .project-panel--ml,
+#projects-eda:checked ~ .project-tab-panels .project-panel--eda,
+#projects-stats:checked ~ .project-tab-panels .project-panel--stats,
+#projects-tool:checked ~ .project-tab-panels .project-panel--tool {
+  display: block;
+}
+
 .project-card {
   padding: 1.1rem 1.2rem;
   border: 1px solid var(--ma-line);

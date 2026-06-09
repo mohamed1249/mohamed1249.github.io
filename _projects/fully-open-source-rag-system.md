@@ -2,6 +2,7 @@
 title: "AI: Fully Open-Source RAG System"
 date: 2024-11-10
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - LangChain

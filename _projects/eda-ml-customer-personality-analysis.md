@@ -2,6 +2,7 @@
 title: "EDA + ML: Customer Personality Analysis & Segmentation"
 date: 2022-06-19
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

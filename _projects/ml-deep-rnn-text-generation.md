@@ -1,7 +1,8 @@
 ---
-title: "ML: Deep RNN (LSTM) Text Generation on Moby Dick"
+title: "AI: Deep RNN (LSTM) Text Generation on Moby Dick"
 date: 2022-11-01
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - TensorFlow / Keras

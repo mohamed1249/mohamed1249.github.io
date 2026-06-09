@@ -2,6 +2,7 @@
 title: "EDA + ML: Store Sales Time Series Forecasting"
 date: 2022-11-27
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

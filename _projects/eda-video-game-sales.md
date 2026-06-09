@@ -2,6 +2,7 @@
 title: "EDA: Video Game Sales — High-Level Visualizations"
 date: 2022-03-20
 status: "Completed"
+field: "EDA"
 tools:
   - Python
   - Pandas

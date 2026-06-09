@@ -2,6 +2,7 @@
 title: "ML: Evaluating PCA Impact on Churn Prediction Models"
 date: 2025-05-19
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

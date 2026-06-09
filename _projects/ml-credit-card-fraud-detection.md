@@ -2,6 +2,7 @@
 title: "ML: Credit Card Fraud Detection"
 date: 2022-08-15
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

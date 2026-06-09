@@ -2,6 +2,7 @@
 title: "ML: Simple Neural Network with PyTorch"
 date: 2024-01-22
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - PyTorch

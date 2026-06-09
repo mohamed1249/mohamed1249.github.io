@@ -2,6 +2,7 @@
 title: "ML: Mall Customer Segmentation with K-Means Clustering"
 date: 2022-02-24
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

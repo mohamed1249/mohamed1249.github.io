@@ -2,6 +2,7 @@
 title: "ML: Loan Default Prediction"
 date: 2022-05-27
 status: "Completed"
+field: "ML"
 tools:
   - Python
   - Pandas

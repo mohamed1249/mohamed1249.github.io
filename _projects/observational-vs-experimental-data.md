@@ -2,6 +2,7 @@
 title: "Observational Data vs. Experimental Data"
 date: 2025-05-30
 status: "Completed"
+field: "Stats"
 tools:
   - Python
   - NumPy

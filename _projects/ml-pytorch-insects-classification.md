@@ -1,7 +1,8 @@
 ---
-title: "ML: PyTorch Insects Image Classification"
+title: "AI: PyTorch Insects Image Classification"
 date: 2024-03-13
 status: "Completed"
+field: "AI"
 tools:
   - Python
   - PyTorch
