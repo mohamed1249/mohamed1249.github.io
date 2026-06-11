@@ -10,11 +10,7 @@ This is the visual notebook: drawings, sketches, references, aesthetics, studies
 
 ## Gallery
 
-Add your drawings here as images when you are ready. A simple format works well:
-
-```markdown
-![Sketch title](/assets/images/sketch-title.jpg)
-```
+The gallery is intentionally sparse for now: a studio wall for drawings, studies, symbols, visual references, and experiments in mood.
 
 ## Visual Themes
 
@@ -23,6 +19,6 @@ Add your drawings here as images when you are ready. A simple format works well:
 - Dark minimal palettes with small warm details.
 - Symbols, margins, notebooks, diagrams, and quiet cinematic frames.
 
-## Notes
+## Studio Wall
 
-Use this page as a studio wall. It does not need to be polished before it can be meaningful.
+Some work belongs here before it becomes polished. Sketches, unfinished images, and small studies can carry their own kind of truth.

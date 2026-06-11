@@ -18,11 +18,17 @@ A living snapshot of what currently has my attention: learning, building, readin
 
 ## Learning
 
-Write the courses, papers, books, tools, and concepts you are currently studying here.
+- Applied AI systems: retrieval, agents, evaluation, and the craft of making models useful.
+- Data storytelling: turning analysis into something readable, visual, and memorable.
+- Psychology, mythology, and philosophy as maps of human behavior.
+- Web identity: shaping this archive into a place that feels personal without becoming noisy.
 
 ## Making
 
-Write what you are building, drafting, sketching, or testing this month.
+- A portfolio that works as a full digital identity, not just a list of projects.
+- Cleaner public versions of older projects that deserve a second life.
+- Poetry, fragments, and notes that move between Arabic, emotion, and image.
+- A more coherent system for projects, writing, music, books, and current obsessions.
 
 ## Mood
 

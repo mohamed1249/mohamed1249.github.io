@@ -31,11 +31,11 @@ The writing room: poems, emotional notes, fragments, essays, comments, and thoug
   </div>
 </section>
 
-Add more poems here as separate entries or short excerpts. Let the page stay sparse; poetry needs air around it.
+This page stays sparse on purpose. Poetry needs air around it.
 
 ## Essays and Reflections
 
-Use this space for longer writing about psychology, philosophy, mythology, fantasy, books, human nature, and the emotional logic of ordinary life.
+Longer writing belongs here: psychology, philosophy, mythology, fantasy, books, human nature, and the emotional logic of ordinary life.
 
 ## Fragments
 

@@ -172,9 +172,9 @@ This is the research-lab side of the archive: models, datasets, notebooks, exper
     </div>
   </div>
 {% else %}
-  <p>No projects are published yet. When you add files to <code>_projects</code>, they will appear here automatically.</p>
+  <p>Projects are being curated.</p>
 {% endif %}
 
-## Technical Notes
+## Research Notes
 
-Use this section for things you are learning in public: ideas about evaluation, data cleaning, model behavior, visualization, or the messy parts of building real systems.
+The projects here are not only outputs. They are traces of questions: how to evaluate models honestly, how to clean data without losing meaning, how to turn notebooks into systems, and how to make technical work readable without flattening it.

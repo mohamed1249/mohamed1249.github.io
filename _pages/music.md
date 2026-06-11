@@ -22,4 +22,4 @@ My current public playlist:
 
 ## Listening Notes
 
-Write short comments here: why a song matters, what scene it belongs to, what memory it carries, or what kind of thinking it unlocks.
+Some songs are not just songs; they are rooms, weather, or small machines for remembering. This section collects the ones that keep changing the light.
