@@ -19,6 +19,9 @@ tools:
   - Random Forest
   - SVC
   - LSTM
+github: "https://github.com/mohamed1249/Futures-Trading-Analytics-Model"
+demo:
+kaggle:
 links:
   - label: "GitHub Repository"
     url: "https://github.com/mohamed1249/Futures-Trading-Analytics-Model"

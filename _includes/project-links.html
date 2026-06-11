@@ -1,0 +1,9 @@
+{% if include.links %}
+  <ul>
+    {% for link in include.links %}
+      {% if link.url %}
+        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer">{{ link.label | default: link.url }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
