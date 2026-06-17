@@ -10,8 +10,30 @@ Music as memory, mood, and architecture. This page is for playlists, songs, albu
 
 ## Playlists
 
-My current public playlist:
-[open on Spotify](https://open.spotify.com/playlist/48eiTVTw1XtjshzxKaY0TI?si=5gSG7W_NTwC6sjoEBHAoVA&pi=7mX8aNQzQdKvm).
+<section class="spotify-feature">
+  <div>
+    <p class="kicker">Personal playlist</p>
+    <h2>Salam</h2>
+    <p>
+      A public playlist where every piece carries something of me: memory, restlessness, grief, softness,
+      defiance, and the kind of quiet that makes thinking possible.
+    </p>
+  </div>
+
+  <iframe
+    title="Spotify playlist: Salam"
+    data-testid="embed-iframe"
+    src="https://open.spotify.com/embed/playlist/48eiTVTw1XtjshzxKaY0TI?utm_source=generator&si=0caa39456d7c4779"
+    width="100%"
+    height="352"
+    frameborder="0"
+    allowfullscreen
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
+</section>
+
+[Open the playlist on Spotify](https://open.spotify.com/playlist/48eiTVTw1XtjshzxKaY0TI?si=0caa39456d7c4779).
 
 | Mood | Playlist Notes |
 | --- | --- |
