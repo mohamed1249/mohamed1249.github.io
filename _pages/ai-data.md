@@ -1,20 +1,20 @@
 ---
-title: "AI + Data Science"
+title: "Data Science + AI"
 permalink: /ai-data/
 classes: wide
 ---
 
 <p class="page-intro">
-This is the research-lab side of the archive: models, datasets, notebooks, experiments, and the discipline of turning noise into a useful signal.
+This is the data-science side of the archive: datasets, notebooks, models, dashboards, experiments, and the discipline of turning noise into a useful signal.
 </p>
 
 ## Workbench
 
 | Area | What Belongs Here |
 | --- | --- |
-| AI Engineering | LLM experiments, agents, prompt systems, model evaluation, automation, and applied AI tools. |
 | Data Science | Analysis notebooks, dashboards, statistical thinking, visualization, and storytelling with data. |
 | Machine Learning | Classification, regression, NLP, recommendation systems, and learning notes. |
+| AI Engineering | LLM experiments, agents, prompt systems, model evaluation, automation, and applied AI tools. |
 | Experiments | Half-built prototypes, questions worth testing, and small technical discoveries. |
 
 ## Featured Projects

@@ -5,26 +5,29 @@ classes: wide
 ---
 
 <p class="page-intro">
-I am Muhammad Abdulsalam, an AI engineer and data scientist focused on applied machine learning, RAG systems, analytics workflows, and practical data products.
+I am Muhammad Abdulsalam, a data scientist focused on analysis, machine learning, statistical thinking, dashboards, and practical data products.
 </p>
 
 <figure class="about-portrait">
   <img src="/assets/images/muhammad-coded-poetry-portrait.jpg" alt="Muhammad Abdulsalam at a desk with code, books, and a notebook">
 </figure>
 
-My technical work moves across machine learning, data analysis, LLM applications, document AI, dashboards, and tooling. I like projects that start with messy data or an unclear question and end as something usable: a model, assistant, report, dashboard, API, or decision-support workflow.
+My technical work moves across data analysis, machine learning, forecasting, experimentation, visualization, dashboards, and tooling. I like projects that start with messy data or an unclear question and end as something usable: a model, report, dashboard, API, or decision-support workflow.
 
-I also care about intelligence in the human sense: language, psychology, philosophy, mythology, poetry, music, aesthetics, and the hidden motives that move people. That creative layer is part of how I think, but the professional center of this site is AI and data science.
+I also work with applied AI and RAG systems, especially when they support document analysis, search, automation, or data workflows. The professional center of this site is data science; AI is one of the tools I use to make data work more useful.
+
+Outside the technical layer, I care about language, psychology, philosophy, mythology, poetry, music, aesthetics, and the hidden motives that move people. That creative side shapes how I think, but it stays behind the data work rather than replacing it.
 
 ## What I Make
 
-- Applied AI and RAG systems.
-- Machine-learning models and evaluation workflows.
 - Data analysis notebooks and dashboards.
-- Flask APIs, Streamlit apps, Dockerized prototypes, and scraping tools.
+- Machine-learning models and evaluation workflows.
 - Statistical experiments, A/B tests, and business-facing analysis.
+- Forecasting, clustering, NLP, recommender, and computer-vision projects.
+- Applied AI and RAG systems around documents, search, and assistants.
+- Flask APIs, Streamlit apps, Dockerized prototypes, and scraping tools.
 - Poems, essays, fragments, and creative notes as a secondary archive.
 
 ## What I Am Looking For
 
-AI and data work where models need to become useful systems: projects with real data, practical constraints, clear communication, and enough depth to reward careful thinking.
+Data science work where analysis, models, and communication need to become useful decisions: projects with real data, practical constraints, business context, and enough depth to reward careful thinking.
