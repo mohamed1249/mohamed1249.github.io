@@ -651,6 +651,52 @@ blockquote {
   direction: ltr;
 }
 
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.6rem;
+}
+
+.art-piece {
+  margin: 0;
+  border: 1px solid var(--ma-line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(238, 246, 233, 0.66), rgba(255, 247, 250, 0.58)),
+    rgba(255, 253, 248, 0.78);
+  overflow: hidden;
+}
+
+.art-piece img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #eef6e9;
+}
+
+.art-piece--tall img {
+  aspect-ratio: 3 / 4;
+}
+
+.art-piece figcaption {
+  padding: 0.95rem 1rem 1.05rem;
+}
+
+.art-piece h3 {
+  margin: 0 0 0.35rem;
+  color: var(--ma-ink);
+  font-size: 1.02rem;
+}
+
+.art-piece p {
+  margin: 0;
+  color: var(--ma-muted);
+  font-size: 0.9rem;
+  line-height: 1.62;
+}
+
 body,
 #main,
 .page,
@@ -825,6 +871,10 @@ figure.highlight code {
   }
 
   .writing-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .art-gallery {
     grid-template-columns: 1fr;
   }
 }
