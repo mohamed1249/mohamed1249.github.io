@@ -315,6 +315,37 @@ body {
   animation-delay: 1.1s;
 }
 
+.proof-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0 0 2rem;
+  border: 1px solid var(--ma-line);
+  background: rgba(92, 70, 55, 0.16);
+}
+
+.proof-strip div {
+  padding: 1rem 1.1rem;
+  background: rgba(255, 253, 248, 0.82);
+}
+
+.proof-strip strong {
+  display: block;
+  color: var(--ma-red);
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  line-height: 1;
+}
+
+.proof-strip span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--ma-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .kicker {
   margin: 0 0 0.9rem;
   color: var(--ma-green);
@@ -331,6 +362,10 @@ body {
   margin: 0 0 3rem;
   border: 1px solid var(--ma-line);
   background: rgba(92, 70, 55, 0.16);
+}
+
+.focus-grid {
+  margin-bottom: 3.4rem;
 }
 
 .constellation-card {
@@ -401,6 +436,13 @@ body {
 
 .archive-list {
   margin: 3rem 0 1rem;
+}
+
+.archive-list__intro {
+  max-width: 48rem;
+  margin: 0.85rem 0 0;
+  color: var(--ma-muted);
+  line-height: 1.7;
 }
 
 .archive-list__items {
@@ -736,6 +778,10 @@ figure.highlight code {
     grid-template-columns: 1fr;
   }
 
+  .proof-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .constellation-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -756,6 +802,10 @@ figure.highlight code {
   }
 
   .constellation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-strip {
     grid-template-columns: 1fr;
   }
 

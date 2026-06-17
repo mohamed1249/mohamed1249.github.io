@@ -2,13 +2,13 @@
 main:
   - title: "AI + Data"
     url: /ai-data/
+  - title: "About"
+    url: /about/
+  - title: "Now"
+    url: /now/
   - title: "Writing"
     url: /writing/
   - title: "Art"
     url: /art/
   - title: "Music"
     url: /music/
-  - title: "Now"
-    url: /now/
-  - title: "About"
-    url: /about/
