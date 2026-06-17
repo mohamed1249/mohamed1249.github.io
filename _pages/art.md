@@ -13,35 +13,35 @@ This is the visual notebook: drawings, paper-born concepts, references, aestheti
 These pieces started as ideas and rough visual concepts on paper, then moved into AI-assisted rendering. I keep them here as visual world-building: creatures, ritual, command, instinct, myth, and pressure.
 
 <section class="art-gallery" aria-label="AI-assisted drawing gallery">
-  <figure class="art-piece art-piece--wide">
-    <img src="/assets/images/art-winged-cat-storm-sea.jpg" alt="A winged cat above a stormy sea chasing a fish while fins cut through the water">
-    <figcaption>
-      <h3>The Winged Hunt</h3>
-      <p>A fantasy study about instinct, hunger, impossible movement, and the danger waiting under the surface.</p>
-    </figcaption>
-  </figure>
-
   <figure class="art-piece art-piece--tall">
     <img src="/assets/images/art-storm-dragon-sky.jpg" alt="A white dragon in storm clouds with red torn wings and an aircraft in the distance">
     <figcaption>
-      <h3>Wounded Sky</h3>
-      <p>The mighty can live for decades in peace and glory, then enter one new, stormed part of the sky expecting to conquer it. One miscalculation, and they fall. But the fall is not the ending; it is the beginning of the ground story.</p>
-    </figcaption>
-  </figure>
-
-  <figure class="art-piece art-piece--panorama">
-    <img src="/assets/images/art-pig-command-room.jpg" alt="A dark satirical command room with uniformed figures and orders on the wall">
-    <figcaption>
-      <h3>The Command Room</h3>
-      <p>The most intimate freedom is the freedom to choose who enters our lives, what treatment we accept, and whether we are allowed to be treated as human beings by human beings.</p>
+      <h3>Wilder &amp; Tougher</h3>
+      <p>The mighty can spend decades in peace and glory, believing every sky is theirs to claim. Then they enter a storm they expected to conquer, misread its violence, and fall. But the fall is not the ending; it is the beginning of the ground story.</p>
     </figcaption>
   </figure>
 
   <figure class="art-piece art-piece--tall">
     <img src="/assets/images/art-ritual-mask-fire.jpg" alt="A crowd holding torches around a raised mask in a stormy ritual scene">
     <figcaption>
-      <h3>The Ritual of Silence</h3>
-      <p>The peaceful end after a nightmare that lost its way. We may die in glory, pain, or shame, but the last mercy is to arrive there quiet inside ourselves.</p>
+      <h3>PEACE</h3>
+      <p>The quiet end of a nightmare that has finally lost its grip. We may arrive there carrying glory, pain, or shame, but what matters most is that the last breath belongs to peace.</p>
+    </figcaption>
+  </figure>
+
+  <figure class="art-piece art-piece--panorama">
+    <img src="/assets/images/art-pig-command-room.jpg" alt="A dark satirical command room with uniformed figures and orders on the wall">
+    <figcaption>
+      <h3>I Can't See Clearly, and I'm Unable to Speak My Mind</h3>
+      <p>The most essential freedom is the right to choose who belongs in our lives, what treatment we accept, and whether we are allowed to be treated as fully human by other human beings. To lose that freedom is not a small inconvenience; it is a wound to the self.</p>
+    </figcaption>
+  </figure>
+
+  <figure class="art-piece art-piece--feature">
+    <img src="/assets/images/art-winged-cat-storm-sea.jpg" alt="A winged cat above a stormy sea chasing a fish while fins cut through the water">
+    <figcaption>
+      <h3>My Wings Aren't Mine, and in the Sea, I Can't Fight</h3>
+      <p>Wings mean little in the sea. There is a particular pain in knowing you have what it takes to survive, but not to live: being excellent at what you hate, and almost powerless before what you love most.</p>
     </figcaption>
   </figure>
 </section>
