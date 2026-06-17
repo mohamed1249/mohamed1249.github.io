@@ -706,6 +706,16 @@ blockquote {
   aspect-ratio: 3 / 4;
 }
 
+.art-piece--panorama {
+  grid-column: 1 / -1;
+}
+
+.art-piece--panorama img {
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .art-piece figcaption {
   padding: 0.95rem 1rem 1.05rem;
 }
