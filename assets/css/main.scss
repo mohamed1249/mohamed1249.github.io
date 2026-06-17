@@ -677,6 +677,17 @@ blockquote {
   color: var(--ma-ink);
 }
 
+.music-thread {
+  max-width: 52rem;
+  color: var(--ma-muted);
+}
+
+.playlist-stack {
+  display: grid;
+  gap: 1rem;
+  margin: 1.4rem 0 2.2rem;
+}
+
 .spotify-feature {
   display: grid;
   grid-template-columns: minmax(12rem, 0.72fr) minmax(18rem, 1.28fr);
@@ -705,6 +716,18 @@ blockquote {
   width: 100%;
   border: 0;
   border-radius: 8px;
+}
+
+.spotify-feature__link {
+  display: inline-flex;
+  margin-top: 0.9rem;
+  color: var(--ma-green) !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.spotify-feature__link:hover {
+  color: var(--ma-red) !important;
 }
 
 .art-gallery {
