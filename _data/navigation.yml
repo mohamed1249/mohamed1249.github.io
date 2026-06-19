@@ -2,6 +2,8 @@
 main:
   - title: "Data Science"
     url: /ai-data/
+  - title: "Resume"
+    url: /assets/files/muhammad-abdulsalam-data-scientist-resume.pdf
   - title: "About"
     url: /about/
   - title: "Now"
