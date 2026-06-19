@@ -14,6 +14,8 @@ I am Muhammad Abdulsalam, a data scientist focused on analysis, machine learning
 
 My technical work moves across data analysis, machine learning, forecasting, experimentation, visualization, dashboards, and tooling. I like projects that start with messy data or an unclear question and end as something usable: a model, report, dashboard, API, or decision-support workflow.
 
+Professionally, I have worked through freelance client projects, part-time AI engineering at Say Hai, and a Teaching Assistant role where I taught Artificial Intelligence and Data Structures. That mix shaped how I work: technical enough to build, practical enough to explain, and careful enough to connect the work to decisions.
+
 <p class="resume-callout">
   <a class="btn btn--primary" href="/assets/files/muhammad-abdulsalam-data-scientist-resume.pdf">Download Resume</a>
   <span>Public PDF version for employers and collaborators.</span>
@@ -39,19 +41,19 @@ Outside the technical layer, I care about language, psychology, philosophy, myth
 
 2022 - Present / Remote
 
-Delivered data science, machine learning, AI, and technical-writing projects for clients across multiple regions. Built models and reports around churn prediction, event prediction, forecasting, clustering, incident prediction, property analysis, scraping, dashboards, and reusable Python workflows.
+Delivered data science, machine learning, AI, and technical-writing projects for clients across multiple regions, including the United States, Australia, Malaysia, UAE, Netherlands, China, Canada, and Europe. Built models and reports around churn prediction, event prediction, forecasting, clustering, incident prediction, property analysis, scraping, dashboards, and reusable Python workflows.
 
 ### AI Engineer, Say Hai
 
 Apr 2023 - Apr 2025 / Remote
 
-Built AI workflows and customer-facing prototypes using Python, OpenAI API, Claude API, Flask, GCP, Gradio, Streamlit, LangChain, LangFlow, n8n, and Google APIs.
+Built AI workflows and customer-facing prototypes using Python, OpenAI API, Claude API, Flask, GCP, Gradio, Streamlit, LangChain, LangFlow, n8n, and Google APIs. The work focused on turning customer data and automation needs into useful AI-powered tools.
 
 ### AI Teaching Assistant
 
 Sep 2024 - Feb 2025 / Misr Higher Institute For Commerce & Computers
 
-Taught Artificial Intelligence and Data Structures, supported hands-on coding exercises, helped with grading, and explained technical concepts to undergraduate students.
+Taught Artificial Intelligence and Data Structures, supported hands-on coding exercises, helped with grading, and explained technical concepts to undergraduate students in a way that made theory easier to use in code.
 
 ## What I Am Looking For
 
