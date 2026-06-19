@@ -112,7 +112,3 @@ good vibes, workout momentum, and the kind of music that makes the body remember
     </iframe>
   </section>
 </div>
-
-## Listening Notes
-
-Some songs are not just songs; they are rooms, weather, or small machines for remembering. This section collects the ones that keep changing the light.
