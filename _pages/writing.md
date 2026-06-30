@@ -33,30 +33,25 @@ The writing room: poems, emotional notes, fragments, essays, comments, and thoug
 
 This page stays sparse on purpose. Poetry needs air around it.
 
-## Film Notes
+## Reviews
 
 <article class="writing-note">
-  <p class="kicker">Film reflection . Rewatched 01 May 2026 . Rating: 4/5</p>
-  <h2>Stand by Me <span>1986</span></h2>
+  <p class="kicker">Film notes . Ratings . Public watch history</p>
+  <h2>IMDb Reviews</h2>
+  <p>
+    Instead of archiving every movie note here, this page points to the living place where the film reviews already belong:
+    my IMDb profile.
+  </p>
+  <a class="btn btn--primary" href="https://www.imdb.com/user/p.li5sl2eqztdass5abwgwctg6t4?ref_=wl_nv_profile">Read my IMDb reviews</a>
+</article>
 
-  <p>Sometimes, the people who help us survive our childhood are other children.</p>
-
-  <p>On the surface, <em>Stand by Me</em> is a friendship story. Four boys go looking for a dead body.</p>
-
-  <p>But underneath that, the film is saturated with pain.</p>
-
-  <p>Each boy is carrying something heavy:</p>
-
-  <ul>
-    <li>Gordie is grieving his brother and feels emotionally abandoned by his parents.</li>
-    <li>Chris comes from an abusive, neglectful family and has internalized the belief that he's destined to become a "bad kid."</li>
-    <li>Teddy is literally traumatized by an abusive father who physically harmed him.</li>
-    <li>Vern is probably the least damaged, but he's still lonely and insecure.</li>
-  </ul>
-
-  <p>The journey isn't really about finding the body. The body is almost an excuse. It's a story about four boys wandering through the wilderness carrying wounds they don't yet have the language to describe.</p>
-
-  <p>One of the saddest things about the film is that the boys are often more emotionally available to each other than the adults around them. They joke, fight, and tease each other, but they also listen to each other in ways their families don't.</p>
+<article class="writing-note">
+  <p class="kicker">Book notes . Reading taste . Public shelves</p>
+  <h2>Goodreads Reviews</h2>
+  <p>
+    Book reactions, ratings, shelves, and reading history live on Goodreads, where they can stay connected to the books themselves.
+  </p>
+  <a class="btn btn--primary" href="https://www.goodreads.com/user/show/109334423-salam">Read my Goodreads reviews</a>
 </article>
 
 ## Essays and Reflections
