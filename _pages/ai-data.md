@@ -1,11 +1,11 @@
 ---
-title: "Data Science + AI"
+title: "Projects"
 permalink: /ai-data/
 classes: wide
 ---
 
 <p class="page-intro">
-This is the data-science side of the archive: datasets, notebooks, models, dashboards, experiments, and the discipline of turning noise into a useful signal.
+This is the technical side of the archive: datasets, notebooks, models, dashboards, AI systems, automation projects, tools, experiments, and the discipline of turning messy work into something useful.
 </p>
 
 ## Workbench
