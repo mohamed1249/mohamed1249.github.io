@@ -67,7 +67,7 @@ good vibes, workout momentum, and the kind of music that makes the body remember
   <section class="spotify-feature">
     <div>
       <p class="kicker">Workout playlist</p>
-      <h2>Sweaty Peseidon</h2>
+      <h2>Sweaty Poseidon</h2>
       <p>
         Built for sweat, pace, stubbornness, and the version of me that needs motion before clarity:
         motivation without pretending everything is easy.
@@ -76,7 +76,7 @@ good vibes, workout momentum, and the kind of music that makes the body remember
     </div>
 
     <iframe
-      title="Spotify playlist: Sweaty Peseidon"
+      title="Spotify playlist: Sweaty Poseidon"
       data-testid="embed-iframe"
       src="https://open.spotify.com/embed/playlist/20TJzqxjW4PDIoDpovocj6?utm_source=generator&si=ea69bebed1ab422b"
       width="100%"

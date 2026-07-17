@@ -1,5 +1,6 @@
 ---
 title: "ML: Mall Customer Segmentation with K-Means Clustering"
+excerpt: "An unsupervised learning project that segments mall customers into five interpretable groups using age, income, spending score, K-Means, and 3D visualization."
 date: 2022-02-24
 status: "Completed"
 field: "ML"

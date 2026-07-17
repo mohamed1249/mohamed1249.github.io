@@ -1,5 +1,6 @@
 ---
 title: "EDA: Video Game Sales — High-Level Visualizations"
+excerpt: "A high-level exploratory analysis of video game releases and sales across platforms, genres, publishers, years, and regions, with reusable visualization functions."
 date: 2022-03-20
 status: "Completed"
 field: "EDA"

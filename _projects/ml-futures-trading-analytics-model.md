@@ -2,6 +2,7 @@
 title: "ML: Futures Trading Analytics Model"
 excerpt: "A market microstructure experiment on ES futures block data, testing whether volume-profile and breakout features could predict directional price movement."
 date: 2023-09-26
+status: "Completed"
 field: "ML"
 tags:
   - Machine Learning

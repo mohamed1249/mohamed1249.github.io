@@ -1,5 +1,6 @@
 ---
 title: "ML: Daily Climate Time Series Forecasting"
+excerpt: "A forecasting project for Delhi climate variables comparing date-feature KNN baselines, full-feature KNN models, and NeuralProphet time-series forecasts."
 date: 2022-01-10
 status: "Completed"
 field: "ML"

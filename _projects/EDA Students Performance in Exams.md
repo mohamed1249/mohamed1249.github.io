@@ -1,5 +1,6 @@
 ---
 title: "EDA: Students Performance in Exams"
+excerpt: "An exploratory analysis of 1,000 student exam records, showing how demographics, lunch type, parental education, and test preparation relate to math, reading, and writing scores."
 date: 2022-04-01
 status: "Completed"
 field: "EDA"
