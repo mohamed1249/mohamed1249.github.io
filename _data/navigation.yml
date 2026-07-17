@@ -2,14 +2,14 @@
 main:
   - title: "Projects"
     url: /ai-data/
+  - title: "Articles"
+    url: /articles/
   - title: "About"
     url: /about/
   - title: "Now"
     url: /now/
   - title: "Writing"
     url: /writing/
-  - title: "Articles"
-    url: /articles/
   - title: "Art"
     url: /art/
   - title: "Music"

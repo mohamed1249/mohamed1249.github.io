@@ -10,7 +10,7 @@ Technical articles, public notes, and longer explanations I have published outsi
 
 <section class="article-list" aria-label="Published articles">
   <article class="writing-note">
-    <p class="kicker">LinkedIn Article . Machine Learning . Published 18 July 2025</p>
+    <p class="kicker">18 July 2025 . LinkedIn Article . Machine Learning</p>
     <h2>Why XGBoost Is Still My Go-To Model for Tabular Data</h2>
     <p>
       A practical note on why XGBoost remains one of my favorite models for structured business data:
@@ -21,7 +21,7 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
-    <p class="kicker">LinkedIn Article . Statistics . Decision Making</p>
+    <p class="kicker">1 July 2025 . LinkedIn Article . Statistics . Decision Making</p>
     <h2>Statistics Isn't Just for Data Scientists, It's for Anyone Who Wants to Think Clearly</h2>
     <p>
       A public note on statistics as a practical thinking tool: not just formulas for data scientists,
@@ -31,7 +31,7 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
-    <p class="kicker">LinkedIn Post . Critical Thinking . Better Questions</p>
+    <p class="kicker">12 June 2025 . LinkedIn Post . Critical Thinking . Better Questions</p>
     <h2>Ask the Annoying Questions - They're Actually Useful</h2>
     <p>
       A short reflection on why the questions that feel inconvenient, obvious, or annoying are often
@@ -41,7 +41,7 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
-    <p class="kicker">LinkedIn Post . Data Science . Learning by Doing</p>
+    <p class="kicker">10 June 2025 . LinkedIn Post . Data Science . Learning by Doing</p>
     <h2>Data Science, Data Analysis, and Learning by Doing</h2>
     <p>
       A LinkedIn note on building practical data skills through hands-on work: learning by doing,
@@ -51,7 +51,7 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
-    <p class="kicker">LinkedIn Post . Data Communication . Plain Language</p>
+    <p class="kicker">9 June 2025 . LinkedIn Post . Data Communication . Plain Language</p>
     <h2>Data Jargon Is Confusing - and That's a Problem</h2>
     <p>
       A short note on why data work needs clearer language: the point is not to sound technical,
@@ -61,7 +61,7 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
-    <p class="kicker">LinkedIn Post . Projects . Execution</p>
+    <p class="kicker">8 June 2025 . LinkedIn Post . Projects . Execution</p>
     <h2>Passion Isn't Enough - Why Smart Projects Need More</h2>
     <p>
       A reflection on why strong projects need more than excitement: clear thinking, scope,
@@ -71,7 +71,7 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
-    <p class="kicker">LinkedIn Post . Deep Learning . Practice</p>
+    <p class="kicker">12 December 2024 . LinkedIn Post . Deep Learning . Practice</p>
     <h2>In Deep Learning, One Key to Success Is Practice</h2>
     <p>
       A LinkedIn note on deep learning as a practical discipline: understanding the concepts matters,
