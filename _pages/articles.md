@@ -79,4 +79,14 @@ Technical articles, public notes, and longer explanations I have published outsi
     </p>
     <a class="btn btn--primary" href="https://www.linkedin.com/posts/muhammad-abdulsalam-b127641b9_in-deep-learning-one-key-to-success-is-activity-7273073784750788608-S7o3">Read on LinkedIn</a>
   </article>
+
+  <article class="writing-note">
+    <p class="kicker">16 September 2024 . LinkedIn Post . Deep Learning . PyTorch . TensorFlow</p>
+    <h2>Deep Learning, PyTorch, and TensorFlow</h2>
+    <p>
+      A LinkedIn post from the deep-learning learning path that connects to the PyTorch project work:
+      building models, comparing frameworks, and turning experiments into practical understanding.
+    </p>
+    <a class="btn btn--primary" href="https://www.linkedin.com/posts/muhammad-abdulsalam-b127641b9_deeplearning-pytorch-tensorflow-activity-7241510203697844224-dp93">Read on LinkedIn</a>
+  </article>
 </section>
