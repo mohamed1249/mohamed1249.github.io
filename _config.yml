@@ -19,7 +19,7 @@ locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
 title                    : "Muhammad Abdulsalam"
 title_separator          : "-"
-subtitle                 : "AI, data, poetry, fragments, music, and the strange weather of being human."
+subtitle                 : "AI, data, poetry, music, and the strange weather of being human."
 name                     : "Muhammad Abdulsalam"
 description              : "The digital archive of Muhammad Abdulsalam: AI engineer, data scientist, poet, writer, thinker, artist, and music lover."
 url                      : "https://mohamed1249.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
