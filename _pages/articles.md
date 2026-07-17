@@ -71,6 +71,16 @@ Technical articles, public notes, and longer explanations I have published outsi
   </article>
 
   <article class="writing-note">
+    <p class="kicker">23 December 2024 . LinkedIn Post . n8n Automation . AI Engineering</p>
+    <h2>n8n Automation and AI Engineering</h2>
+    <p>
+      A LinkedIn post connected to the Product Conversation Hub work: using automation,
+      AI engineering, and workflow orchestration to turn product data into a usable assistant.
+    </p>
+    <a class="btn btn--primary" href="https://www.linkedin.com/posts/muhammad-abdulsalam-b127641b9_n8n-automation-aiengineer-activity-7277021917369237505-h_8W">Read on LinkedIn</a>
+  </article>
+
+  <article class="writing-note">
     <p class="kicker">12 December 2024 . LinkedIn Post . Deep Learning . Practice</p>
     <h2>In Deep Learning, One Key to Success Is Practice</h2>
     <p>

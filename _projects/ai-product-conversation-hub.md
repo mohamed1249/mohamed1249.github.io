@@ -1,7 +1,7 @@
 ---
 title: "AI: Product Conversation Hub"
 date: 2025-02-05
-status: "Prototype"
+status: "Production-ready"
 field: "AI"
 tools:
   - Python
@@ -65,7 +65,7 @@ This required more than a chatbot on top of raw text. The system needed scraping
 
 ## Result
 
-The prototype produced an end-to-end product assistant pipeline:
+The project produced a production-ready end-to-end product assistant pipeline:
 
 - raw product scraping from Kruizinga.nl,
 - hundreds of product JSON/XML records,
@@ -98,8 +98,9 @@ The n8n workflow connects Google Sheets prompts, Google Drive product files, LLM
 
 This project made the architecture around RAG feel much more real. The difficult parts were not only embeddings and prompts; they were data preparation, metadata consistency, source traceability, workflow orchestration, and deciding when semantic search should be combined with exact structured filters.
 
-It also highlighted an important production lesson: credentials, API keys, OAuth tokens, and client secret files should never live directly in source code or project folders. A cleaner production version would rotate exposed keys, move all secrets to environment variables or a secret manager, add validation around generated JSON, improve error handling in the n8n pipeline, and add tests for retrieval quality.
+It also reinforced an important production lesson: credentials, API keys, OAuth tokens, and client secret files should never live directly in source code or project folders. The production-ready version depends on keeping secrets outside the repository, validating generated JSON, handling workflow errors carefully, and monitoring retrieval quality.
 
 ## Links
 
 {% if page.github %}- [GitHub]({{ page.github }}){% endif %}
+- Related LinkedIn post: [n8n automation and AI engineering](https://www.linkedin.com/posts/muhammad-abdulsalam-b127641b9_n8n-automation-aiengineer-activity-7277021917369237505-h_8W)
