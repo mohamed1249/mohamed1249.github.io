@@ -8,6 +8,8 @@ main:
     url: /now/
   - title: "Writing"
     url: /writing/
+  - title: "Articles"
+    url: /articles/
   - title: "Art"
     url: /art/
   - title: "Music"
