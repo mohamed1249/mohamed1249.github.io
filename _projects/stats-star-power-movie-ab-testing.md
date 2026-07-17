@@ -98,3 +98,7 @@ This project taught me how much better an analysis becomes when one question is 
 The final answer is not a slogan like "stars are worth it" or "stars are overrated." It is more useful than that: stars are powerful for scale and attention, but expensive, and the margin story is much more complicated.
 
 That is why I like this project. It feels like real data thinking.
+
+## Links
+
+{% if page.github %}- [GitHub]({{ page.github }}){% endif %}
