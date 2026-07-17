@@ -5,7 +5,7 @@ classes: wide
 ---
 
 <p class="page-intro">
-A shelf for unfinished sparks: technical experiments, strange questions, possible essays, tiny prototypes, and ideas that are not ready to become projects yet.
+A shelf for exploratory threads: technical experiments, strange questions, possible essays, tiny prototypes, and ideas that may later become projects.
 </p>
 
 ## Open Threads

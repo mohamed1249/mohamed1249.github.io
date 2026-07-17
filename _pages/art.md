@@ -8,11 +8,11 @@ classes: wide
 This is the visual notebook: drawings, paper-born concepts, references, aesthetics, studies, and experiments with image, mood, symbol, and composition.
 </p>
 
-## Paper Sketches, AI Rendered
+## Visual Concepts
 
-These pieces started as ideas and rough visual concepts on paper, then moved into AI-assisted rendering. I keep them here as visual world-building: creatures, ritual, command, instinct, myth, and pressure.
+These pieces started as ideas, rough concepts, and visual moods, then developed into a small gallery of symbolic scenes. I keep them here as visual world-building: creatures, ritual, command, instinct, myth, and pressure.
 
-<section class="art-gallery" aria-label="AI-assisted drawing gallery">
+<section class="art-gallery" aria-label="Visual art gallery">
   <figure class="art-piece art-piece--tall">
     <img src="/assets/images/art-storm-dragon-sky.jpg" alt="A white dragon in storm clouds with red torn wings and an aircraft in the distance">
     <figcaption>
@@ -55,4 +55,4 @@ These pieces started as ideas and rough visual concepts on paper, then moved int
 
 ## Studio Wall
 
-Some work belongs here before it becomes polished. Sketches, unfinished images, and small studies can carry their own kind of truth.
+Some work belongs here before it becomes formal. Sketches, visual notes, and small studies can carry their own kind of truth.

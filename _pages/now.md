@@ -5,31 +5,29 @@ classes: wide
 ---
 
 <p class="page-intro">
-A living snapshot of what currently has my attention: learning, building, reading, listening, noticing.
+A living snapshot of where I am right now: recovering, rebuilding momentum, and preparing for the next professional chapter.
 </p>
 
-## Current Obsessions
+## Current Season
 
-- Building a personal website that feels like an identity, not a resume.
-- Deepening AI engineering skills and understanding how useful systems are actually made.
-- Becoming sharper with data science, storytelling, and visual explanation.
-- Reading more about psychology, philosophy, mythology, and human nature.
-- Collecting songs and books that change the atmosphere of a day.
+I finished my military service period on June 1, 2026. Since then, I have been taking some time to rest, recover, and reset before moving fully into the next stage of work.
 
-## Learning
+That pause has been useful. It gave me space to slow down, breathe, and come back to my work with more clarity instead of rushing straight into the next thing.
 
-- Applied AI systems: retrieval, agents, evaluation, and the craft of making models useful.
-- Data storytelling: turning analysis into something readable, visual, and memorable.
-- Psychology, mythology, and philosophy as maps of human behavior.
-- Web identity: shaping this archive into a place that feels personal without becoming noisy.
+## Work
 
-## Making
+I am now actively applying to several companies and keeping an open mind about the next opportunities. I am looking for work where data science, machine learning, analysis, and practical AI systems can become useful decisions, tools, or products.
 
-- A portfolio that works as a full digital identity, not just a list of projects.
-- Cleaner public versions of older projects that deserve a second life.
-- Poetry, fragments, and notes that move between Arabic, emotion, and image.
-- A more coherent system for projects, writing, music, books, and current obsessions.
+## Rebuilding
+
+I am going back through my past work, projects, notes, and technical experience to reconnect with everything I have built. The goal is to regain my technical rhythm, sharpen my judgment, and bring my data science and AI engineering muscles back to full strength.
+
+I am also waiting for the next semester of my pre-master's program, while continuing to study, review, and stay ready for the right opening.
+
+## Outside Work
+
+I have been investing in the Egyptian stock market and paying closer attention to how markets, businesses, risk, and decision-making behave in the real world.
 
 ## Mood
 
-Quiet intensity. More signal, less noise. A little mystery, but never confusion.
+Recovering with intention. Open to what comes next. Slowly turning rest back into momentum.
