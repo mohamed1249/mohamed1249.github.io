@@ -14,7 +14,7 @@ tools:
   - LSTM
   - GRU
 github:
-demo:
+demo: "https://huggingface.co/spaces/ma1249/RNN_TimeSeriesForcasting_Automated_UI"
 kaggle:
 excerpt: "A Gradio interface for training PyTorch RNN, LSTM, or GRU forecasting models on uploaded time-series CSV files, then returning MAE, downloadable model weights, prediction plots, and future forecasts."
 ---
@@ -92,4 +92,5 @@ It also showed why recurrent models are sensitive to configuration. Sequence len
 
 ## Links
 
+- [Live Hugging Face Space]({{ page.demo }})
 - Related LinkedIn note: [Deep learning, PyTorch, and TensorFlow](https://www.linkedin.com/posts/muhammad-abdulsalam-b127641b9_deeplearning-pytorch-tensorflow-activity-7241510203697844224-dp93)
