@@ -95,6 +95,19 @@ body {
   color: var(--ma-muted);
 }
 
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-inline-end: 0.65rem;
+}
+
+.site-logo img {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 9px;
+  box-shadow: 0 6px 18px rgba(40, 34, 29, 0.14);
+}
+
 .greedy-nav {
   background: transparent;
 }

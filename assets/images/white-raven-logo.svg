@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">White raven logo for Muhammad Abdulsalam</title>
+  <desc id="desc">A minimal ivory raven mark with warm dark outlines and red and green accents.</desc>
+  <rect width="128" height="128" rx="28" fill="#28221d"/>
+  <path d="M25 72c18-34 48-47 80-40-9 3-18 9-25 18l23 2-26 13c-5 17-16 27-33 31 6-7 9-15 9-24-10 5-19 5-28 0Z" fill="#fffdf8"/>
+  <path d="M29 70c17-27 42-39 73-36-9 3-17 9-23 17l20 2-24 11c-5 14-15 24-29 29 6-8 8-16 7-24-8 5-16 5-24 1Z" fill="#f3eadc"/>
+  <path d="M26 72c18-34 48-47 80-40-9 3-18 9-25 18l23 2-26 13c-5 17-16 27-33 31 6-7 9-15 9-24-10 5-19 5-28 0Z" fill="none" stroke="#9c8172" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M48 62 31 45c10 1 19 5 28 12l-11 5Z" fill="#fffdf8" stroke="#9c8172" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M56 57c8-12 21-19 40-20-13 5-24 12-32 24l-8-4Z" fill="#fffdf8" opacity=".9"/>
+  <path d="M54 72c9-5 17-12 25-21" fill="none" stroke="#4f7d4d" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="76" cy="48" r="4" fill="#a73535"/>
+  <path d="M25 72c13 8 26 8 40-1" fill="none" stroke="#28221d" stroke-width="3" stroke-linecap="round" opacity=".2"/>
+</svg>
