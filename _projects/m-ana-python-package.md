@@ -1,85 +1,101 @@
 ---
-title: "Library: M-Ana Data Science Package"
-date: 2023-03-18
-status: "Alpha / v0.1.0"
+title: "Library: M-Ana Python Toolkit"
+date: 2026-07-04
+status: "Stable / v1.0.0"
 field: "Tool"
 tools:
   - Python
   - Pandas
   - NumPy
   - Scikit-learn
-  - Plotly
-  - Matplotlib
-  - Statsmodels
-  - TensorFlow
+  - SciPy
+  - FAISS
+  - Pinecone
+  - PostgreSQL
+  - SQLAlchemy
   - PyTorch
-  - SQL
+  - TensorFlow
+  - Statsmodels
+  - MkDocs
+  - GitHub Actions
 github: "https://github.com/mohamed1249/M-Ana"
 demo:
 kaggle:
-excerpt: "A personal Python data-science toolkit, now documented as v0.1.0, that collects reusable tools for data loading, cleaning, visualization, modeling, time-series analysis, statistics, A/B testing, and database workflows."
+excerpt: "A stable, tested Python toolkit that turns recurring data, AI, modeling, experimentation, forecasting, recommendation, retrieval, and database workflows into reusable package APIs."
 ---
 
 ## The Short Version
 
-M-Ana is a personal Python package for data manipulation, analysis, modeling, and experimentation. It started as a way to collect the repeated helper functions I needed while working on data projects, then grew into a broader toolkit for cleaning data, visualizing patterns, evaluating models, handling time series, running statistical tests, and working with databases.
+M-Ana is the Python toolkit I wish I had when I started moving between analysis notebooks, machine-learning experiments, AI prototypes, and production data work. It packages the pieces I kept rebuilding: loading and cleaning data, visualizing patterns, evaluating models, forecasting time series, testing hypotheses, retrieving evidence, ranking recommendations, and moving data through databases.
 
-It is an alpha-stage library, now documented locally as `v0.1.0`, but it shows an important shift in my work: moving from one-off notebooks toward reusable tools.
+What began as a personal collection of helpers is now a stable `1.x` library with nine public domains, a small core installation, optional feature groups, semantic versioning, automated tests, documentation, and a repeatable release workflow.
 
 ## Problem
 
-Data science projects often repeat the same work:
+Technical projects often spend too much time recreating the same foundation:
 
-- load data from different formats,
-- clean missing values and outliers,
-- make the same diagnostic plots,
-- evaluate models,
-- compare experiments,
-- create time-series features,
-- save models,
-- connect to databases.
+- normalizing messy inputs before the real analysis can begin,
+- rebuilding plots and evaluation reports for every model,
+- creating time-series features without leaking future information,
+- wiring document chunking, retrieval, citations, and generation together,
+- implementing recommendation baselines before testing better ideas,
+- moving DataFrames into databases safely and efficiently,
+- keeping heavy libraries installed even when a project does not use them.
 
-Instead of rewriting these pieces every time, M-Ana packages them into reusable modules.
+M-Ana turns those repeated decisions into reusable, documented interfaces so each new project can start closer to its actual problem.
 
-## Approach
+## The Toolkit
 
-**Data utilities** - The package includes helpers for reading files, reading images, loading tables from HTML, connecting to databases, filling missing values, removing outliers, validating columns, cleaning entry errors, and producing cleaning reports.
+| Domain | What M-Ana provides |
+| --- | --- |
+| `data` | Multi-format loading, validation, outlier handling, cleaning reports, and a chainable `DataCleaner` workflow. |
+| `analysis` | Exploratory plots, statistical visualizations, animated charts, and compact dashboard helpers. |
+| `modeling` | Classification, regression, and clustering evaluation; model persistence and registry tools; automated experiments; and PyTorch training utilities. |
+| `nlp` | Text normalization, tokenization, chunking, vectorization, sentiment analysis, topic modeling, embeddings, semantic search, and leakage-safe text classifiers. |
+| `rag` | Citation-ready ingestion, stable document IDs, FAISS search, rank fusion, grounded prompts, provider-neutral generation, Pinecone integration, and retrieval metrics. |
+| `recommend` | Popularity, content-based, item-KNN, and hybrid recommenders with temporal holdouts and ranking evaluation. |
+| `timeseries` | Forecasting, anomaly detection, decomposition, panel features, split-before-scale workflows, seasonality diagnostics, and forecast evaluation. |
+| `stata` | Hypothesis tests, effect sizes, confidence intervals, Bayesian A/B testing, power analysis, multiple-testing corrections, and experiment visualizations. |
+| `database` | SQL helpers and connectors for PostgreSQL, MySQL, SQLite, and MongoDB, with PostgreSQL-first bulk transfer, upsert, schema, index, and query-plan tooling. |
 
-**Visualization tools** - The analysis module wraps common visualizations such as line plots, scatter plots, bar charts, distributions, heatmaps, pairplots, treemaps, Sankey diagrams, funnels, waterfall charts, dashboards, and animated plots.
+## Engineering Decisions
 
-**Modeling utilities** - M-Ana includes model evaluation, feature preprocessing, model registry/versioning, save/load helpers for scikit-learn, Keras, and PyTorch models, auto-classifier and auto-regressor helpers, callbacks, and PyTorch training utilities.
+**A small core with optional capabilities** - The default install keeps only the broadly useful scientific Python stack. Heavier systems such as TensorFlow, PyTorch, Prophet, Pinecone, sentence transformers, and database drivers live in optional dependency groups, so a project installs only what it needs.
 
-**Time-series toolkit** - The time-series modules cover validation, datetime indexing, resampling, missing timestamp handling, stationarity tests, differencing, feature creation, anomaly detection, decomposition, forecasting, evaluation, and visualization.
+**Leakage-aware APIs** - Time-series splitting and scaling happen chronologically, grouped lag features stay within each entity, NLP pipelines learn vocabularies and encodings from training data, and recommender evaluation uses per-user temporal holdouts. These boundaries are part of the API rather than reminders left to each notebook.
 
-**Statistics and experimentation** - The `stata` modules include hypothesis tests, effect sizes, confidence intervals, bootstrap utilities, A/B testing, multivariate testing, lift analysis, correction methods, and statistical visualizations.
+**Provider-neutral retrieval** - The RAG layer separates ingestion, indexing, retrieval, ranking, prompt construction, and generation. It can use local semantic indexes, FAISS, Pinecone, or OpenAI-compatible providers without coupling the whole pipeline to one vendor.
 
-**Database layer** - The package includes SQL helpers, query-building utilities, and connectors for relational databases and MongoDB-style workflows.
+**Evidence and evaluation** - Retrieved chunks retain stable IDs and source metadata, grounded prompts expose citations, and retrieval can be measured with precision, recall, MRR, average precision, and NDCG. Recommendation models follow the same ranked-output contract and can be compared with ranking, coverage, and diversity metrics.
 
-**Packaging** - The project includes `setup.py`, refreshed README documentation, package metadata, a license, changelog, built wheel/source distributions, and test files. That makes it a real Python package rather than only a folder of helper scripts.
+**Database workflows beyond basic reads and writes** - The current database layer treats PostgreSQL as a first-class analytical system: environment-based connection URLs, schema-aware batch upserts, fast `COPY` transfers, DataFrame-to-DDL generation, catalog inspection, safe index creation, query plans, and maintenance diagnostics. SQLite remains available for portable notebooks and local stores.
+
+## Package Quality
+
+M-Ana is structured as an installable Python package rather than a source folder copied between projects:
+
+- `pyproject.toml` is the single source for package metadata and dependency groups,
+- the public version is defined once and released under semantic versioning,
+- MkDocs organizes quick starts, API references, tutorials, and module notebooks,
+- GitHub Actions checks supported Python versions and builds release artifacts,
+- the release workflow runs linting, tests, package builds, and distribution checks,
+- 95 automated tests currently pass across data, visualization, modeling, NLP, RAG, recommendation, statistics, time series, and database workflows.
+
+The package supports Python 3.9 through 3.13 and ships under the MIT License.
 
 ## Result
 
-The current package covers a wide part of the data-science workflow:
+M-Ana now provides a shared technical foundation for projects that would otherwise look unrelated. A data-cleaning notebook, a cited document assistant, a hybrid recommender, a forecasting experiment, and a PostgreSQL feature pipeline can reuse the same package conventions and evaluation discipline.
 
-- data cleaning and validation,
-- exploratory visualization,
-- statistical testing,
-- A/B testing,
-- machine learning evaluation,
-- model persistence,
-- time-series forecasting,
-- anomaly detection,
-- database access,
-- dashboard-style plotting.
-
-As a portfolio project, M-Ana shows engineering maturity: it is about building reusable infrastructure for future analysis, not only solving a single dataset.
+That is the main result of the project: not one model or dashboard, but a growing system for making future work faster, more consistent, and easier to trust.
 
 ## What I Learned
 
-This project taught me how different a reusable library is from a notebook. In a notebook, a function only has to work once. In a package, naming, structure, documentation, defaults, error handling, dependencies, and consistency matter much more.
+Building a library changes the standard of completion. A function that works once in a notebook is only the beginning; a public API also needs names that make sense, safe defaults, stable return types, dependency boundaries, documentation, tests, and a migration story when behavior changes.
 
-It also taught me that scope needs discipline. A personal data-science package can become powerful, but it needs careful organization, tests, documentation, and versioning so it stays useful instead of becoming a drawer full of clever functions.
+The project also taught me to reduce scope deliberately. M-Ana became stronger when modules were organized around coherent workflows, duplicate implementations were removed, and optional integrations were kept outside the core package. Reusability is not about collecting the most functions. It is about making the right paths clear and dependable.
 
 ## Links
 
-{% if page.github %}- [GitHub]({{ page.github }}){% endif %}
+- [Source code and documentation]({{ page.github }})
+- [v1.0.0 release](https://github.com/mohamed1249/M-Ana/releases/tag/v1.0.0)
