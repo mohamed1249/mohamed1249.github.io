@@ -1,7 +1,7 @@
 ---
 title: "Library: M-Ana Python Toolkit"
-date: 2026-07-04
-status: "Stable / v1.0.0"
+date: 2026-07-22
+status: "Beta / v2.0.0"
 field: "Tool"
 tools:
   - Python
@@ -21,14 +21,14 @@ tools:
 github: "https://github.com/mohamed1249/M-Ana"
 demo:
 kaggle:
-excerpt: "A stable, tested Python toolkit that turns recurring data, AI, modeling, experimentation, forecasting, recommendation, retrieval, and database workflows into reusable package APIs."
+excerpt: "A tested, Beta-stage Python toolkit that turns recurring data, AI, modeling, experimentation, forecasting, recommendation, retrieval, and database workflows into reusable package APIs."
 ---
 
 ## The Short Version
 
 M-Ana is the Python toolkit I wish I had when I started moving between analysis notebooks, machine-learning experiments, AI prototypes, and production data work. It packages the pieces I kept rebuilding: loading and cleaning data, visualizing patterns, evaluating models, forecasting time series, testing hypotheses, retrieving evidence, ranking recommendations, and moving data through databases.
 
-What began as a personal collection of helpers is now a stable `1.x` library with nine public domains, a small core installation, optional feature groups, semantic versioning, automated tests, documentation, and a repeatable release workflow.
+What began as a personal collection of helpers is now a Beta-stage `2.x` library with nine public domains, a small core installation, optional feature groups, semantic versioning, automated tests, documentation, and a repeatable release workflow.
 
 ## Problem
 
@@ -61,6 +61,8 @@ M-Ana turns those repeated decisions into reusable, documented interfaces so eac
 ## Engineering Decisions
 
 **A small core with optional capabilities** - The default install keeps only the broadly useful scientific Python stack. Heavier systems such as TensorFlow, PyTorch, Prophet, Pinecone, sentence transformers, and database drivers live in optional dependency groups, so a project installs only what it needs.
+
+**A deliberate v2 scope** - Version 2.0 removes the public `MAna.big` and PySpark namespace. That breaking change earned a major-version bump under semantic versioning, while keeping the toolkit focused on the workflows it can support coherently and test well.
 
 **Leakage-aware APIs** - Time-series splitting and scaling happen chronologically, grouped lag features stay within each entity, NLP pipelines learn vocabularies and encodings from training data, and recommender evaluation uses per-user temporal holdouts. These boundaries are part of the API rather than reminders left to each notebook.
 
@@ -98,4 +100,4 @@ The project also taught me to reduce scope deliberately. M-Ana became stronger w
 ## Links
 
 - [Source code and documentation]({{ page.github }})
-- [v1.0.0 release](https://github.com/mohamed1249/M-Ana/releases/tag/v1.0.0)
+- [Release history](https://github.com/mohamed1249/M-Ana/releases)
