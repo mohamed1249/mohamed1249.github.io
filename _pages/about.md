@@ -9,7 +9,7 @@ I am Muhammad Abdulsalam, a data scientist focused on analysis, machine learning
 </p>
 
 <figure class="about-portrait">
-  <img src="/assets/images/muhammad-coded-poetry-portrait.jpg" alt="Muhammad Abdulsalam at a desk with code, books, and a notebook">
+  <img src="/assets/images/muhammad-coded-poetry-portrait.jpg" alt="Portrait of Muhammad Abdulsalam">
 </figure>
 
 My technical work moves across data analysis, machine learning, forecasting, experimentation, visualization, dashboards, and tooling. I like projects that start with messy data or an unclear question and end as something usable: a model, report, dashboard, API, or decision-support workflow.
