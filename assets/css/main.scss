@@ -1196,6 +1196,22 @@ figure.highlight code {
   }
 }
 
+.page__content .film-feature h2,
+.page__content .film-review-card h3 a {
+  color: #fff8e9 !important;
+}
+
+.page__content .film-feature p,
+.page__content .film-feature blockquote {
+  color: #ded8ca !important;
+}
+
+.page__content .film-feature .kicker,
+.page__content .film-feature .film-feature__label,
+.page__content .film-feature .film-review-card__link {
+  color: #e8c16a !important;
+}
+
 @media (max-width: 900px) {
   .film-review-grid {
     grid-template-columns: 1fr;
