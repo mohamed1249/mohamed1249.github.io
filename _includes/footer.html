@@ -1,8 +1,5 @@
 {% assign locale = include.locale | default: site.locale %}
-{% unless site.atom_feed.hide %}
-  {% assign show_atom = true %}
-{% endunless %}
-{% if site.footer.links or show_atom %}
+{% if site.footer.links %}
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[locale].follow_label %}
@@ -17,9 +14,6 @@
       {% endfor %}
     {% endif %}
 
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> {{ site.data.ui-text[locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
   </ul>
 </div>
 {% endif %}

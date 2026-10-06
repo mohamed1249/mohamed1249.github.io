@@ -156,6 +156,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Substack"
+      icon: "fas fa-fw fa-pen-nib"
+      url: "https://substack.com/@salamelshwaff"
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
       url: "mailto:mohameedmtmn@gmail.com"
