@@ -794,6 +794,57 @@ blockquote {
   color: var(--ma-ink);
 }
 
+.substack-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(1.2rem, 4vw, 2.4rem);
+  align-items: center;
+  margin: 1.5rem 0 2.4rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--ma-line);
+  border-top: 3px solid var(--ma-green);
+  border-radius: 12px;
+  background:
+    radial-gradient(ellipse at top right, rgba(255, 214, 178, 0.30), transparent 65%),
+    linear-gradient(135deg, rgba(238, 246, 233, 0.78), rgba(255, 253, 248, 0.94));
+  box-shadow: 0 12px 32px rgba(92, 70, 55, 0.07);
+}
+
+.substack-feature h2 {
+  margin: 0.2rem 0 0.8rem;
+}
+
+.substack-feature__intro > p:not(.kicker) {
+  color: var(--ma-muted);
+}
+
+.substack-feature__link {
+  display: block;
+  margin-top: 1rem;
+  color: var(--ma-green) !important;
+  font-weight: 700;
+}
+
+.substack-feature__preview {
+  min-width: 0;
+}
+
+.substack-feature__preview .substack-post-embed {
+  margin: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--ma-line);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.94);
+}
+
+.substack-feature__preview iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
 .music-thread {
   max-width: 52rem;
   color: var(--ma-muted);
@@ -1094,7 +1145,8 @@ figure.highlight code {
     grid-template-columns: 1fr;
   }
 
-  .spotify-feature {
+  .spotify-feature,
+  .substack-feature {
     grid-template-columns: 1fr;
   }
 

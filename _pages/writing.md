@@ -58,6 +58,25 @@ This page stays sparse on purpose. Poetry needs air around it.
 
 Longer writing belongs here: psychology, philosophy, mythology, fantasy, books, human nature, and the emotional logic of ordinary life.
 
+<section class="substack-feature" aria-labelledby="substack-heading">
+  <div class="substack-feature__intro">
+    <p class="kicker">Essays + reflections · Substack</p>
+    <h2 id="substack-heading">Salam El-Shwaff</h2>
+    <p>Thoughts on relationships, self-worth, and the emotional logic of ordinary life.</p>
+    <a class="btn btn--primary" href="https://substack.com/@salamelshwaff">Explore my Substack</a>
+    <a class="substack-feature__link" href="https://salamelshwaff.substack.com/p/how-to-leave-when-youre-getting-what">Read the featured essay &rarr;</a>
+  </div>
+  <div class="substack-feature__preview">
+    <p class="kicker">Featured essay</p>
+    <div class="substack-post-embed">
+      <p lang="en">How to leave when you're getting what you want, but not love?!! by Salam El-Shwaff</p>
+      <p>Being temporary ain't the same as being a placeholder.</p>
+      <a data-post-link href="https://salamelshwaff.substack.com/p/how-to-leave-when-youre-getting-what">Read on Substack</a>
+    </div>
+  </div>
+</section>
+<script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
+
 ## Fragments
 
 - Questions I cannot stop returning to.
