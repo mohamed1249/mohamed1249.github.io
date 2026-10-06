@@ -1197,6 +1197,10 @@ figure.highlight code {
 }
 
 @media (max-width: 900px) {
+  .film-review-grid {
+    grid-template-columns: 1fr;
+  }
+
   .identity-hero {
     grid-template-columns: 1fr;
   }
