@@ -35,15 +35,49 @@ This page stays sparse on purpose. Poetry needs air around it.
 
 ## Reviews
 
-<article class="writing-note">
-  <p class="kicker">Film notes . Ratings . Public watch history</p>
-  <h2>IMDb Reviews</h2>
-  <p>
-    Instead of archiving every movie note here, this page points to the living place where the film reviews already belong:
-    my IMDb profile.
-  </p>
-  <a class="btn btn--primary" href="https://www.imdb.com/user/p.li5sl2eqztdass5abwgwctg6t4?ref_=wl_nv_profile">Read my IMDb reviews</a>
-</article>
+<section class="film-feature" aria-labelledby="imdb-heading">
+  <div class="film-feature__intro">
+    <div>
+      <p class="kicker">Film notes + personal ratings · IMDb</p>
+      <h2 id="imdb-heading">Beyond the credits</h2>
+      <p>I write reviews of conclusions and lessons I learned from what I watched.</p>
+    </div>
+    <a class="btn btn--primary" href="https://www.imdb.com/user/p.li5sl2eqztdass5abwgwctg6t4/reviews/">Read all my IMDb reviews</a>
+  </div>
+  <p class="film-feature__label">Selected reviews · Salam91</p>
+  <div class="film-review-grid">
+    <article class="film-review-card">
+      <div class="film-review-card__meta">
+        <time datetime="2026-08-24">Aug 24, 2026</time>
+        <span class="film-review-card__rating"><span aria-hidden="true">★</span> My rating: 9/10</span>
+      </div>
+      <p class="film-review-card__film">Everything Everywhere All at Once</p>
+      <h3><a href="https://www.imdb.com/title/tt6710474/review/rw11797083/">A Disney fairy tale disguised as science fiction</a></h3>
+      <blockquote>Sometimes one gentle way of looking at life can teach you more than seeing the whole universe at once.</blockquote>
+      <a class="film-review-card__link" href="https://www.imdb.com/title/tt6710474/review/rw11797083/">Read my review on IMDb <span aria-hidden="true">&rarr;</span></a>
+    </article>
+    <article class="film-review-card">
+      <div class="film-review-card__meta">
+        <time datetime="2026-08-21">Aug 21, 2026</time>
+        <span class="film-review-card__rating"><span aria-hidden="true">★</span> My rating: 9/10</span>
+      </div>
+      <p class="film-review-card__film">Good Will Hunting</p>
+      <h3><a href="https://www.imdb.com/title/tt0119217/review/rw11780863/">To be healed by the curse of free love</a></h3>
+      <blockquote>Who said intelligent love had to be cold? Hers was understanding, free, and warm.</blockquote>
+      <a class="film-review-card__link" href="https://www.imdb.com/title/tt0119217/review/rw11780863/">Read my review on IMDb <span aria-hidden="true">&rarr;</span></a>
+    </article>
+    <article class="film-review-card">
+      <div class="film-review-card__meta">
+        <time datetime="2026-08-02">Aug 2, 2026</time>
+        <span class="film-review-card__rating"><span aria-hidden="true">★</span> My rating: 10/10</span>
+      </div>
+      <p class="film-review-card__film">A Monster Calls</p>
+      <h3><a href="https://www.imdb.com/title/tt3416532/review/rw11722897/">Answering the Calls</a></h3>
+      <blockquote>It rejects the idea of pure heroes and absolute villains. There are only people.</blockquote>
+      <a class="film-review-card__link" href="https://www.imdb.com/title/tt3416532/review/rw11722897/">Read my review on IMDb <span aria-hidden="true">&rarr;</span></a>
+    </article>
+  </div>
+</section>
 
 <article class="writing-note">
   <p class="kicker">Book notes . Reading taste . Public shelves</p>

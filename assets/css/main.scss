@@ -810,6 +810,124 @@ blockquote {
   box-shadow: 0 12px 32px rgba(92, 70, 55, 0.07);
 }
 
+.film-feature {
+  margin: 1.5rem 0 2.6rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid #494238;
+  border-top: 3px solid #e8c16a;
+  border-radius: 12px;
+  background: radial-gradient(ellipse at top right, #383022, transparent 70%), #1e211e;
+  color: #fff8e9;
+}
+
+.film-feature__intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.film-feature .kicker,
+.film-feature__label {
+  color: #e8c16a;
+}
+
+.film-feature h2 {
+  margin: 0.2rem 0 0.6rem;
+  color: #fff8e9 !important;
+  border-color: #494238;
+}
+
+.film-feature__intro p:not(.kicker) {
+  max-width: 34rem;
+  margin-bottom: 0;
+  color: #ded8ca;
+}
+
+.film-feature .btn--primary {
+  background: #e8c16a;
+  color: #20211d !important;
+}
+
+.film-feature .btn--primary:hover {
+  background: #f3d58e;
+}
+
+.film-feature__label {
+  margin: 1.8rem 0 0.9rem;
+  font-size: 0.8rem;
+}
+
+.film-review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.film-review-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: clamp(1rem, 2vw, 1.35rem);
+  border: 1px solid #494238;
+  border-radius: 8px;
+  background: rgba(255, 248, 233, 0.04);
+}
+
+.film-review-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 1.4rem;
+  color: #ded8ca;
+  font-size: 0.7rem;
+}
+
+.film-review-card__rating {
+  color: #e8c16a;
+  font-weight: 700;
+}
+
+.film-review-card__film {
+  margin-bottom: 0.5rem;
+  color: #ded8ca;
+  font-size: 0.8rem;
+}
+
+.film-review-card h3 {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.film-review-card h3 a {
+  color: #fff8e9 !important;
+  text-decoration: none;
+}
+
+.film-review-card blockquote {
+  margin: 0 0 1.5rem;
+  padding: 0 0 0 0.8rem;
+  border-left: 2px solid #e8c16a;
+  color: #ded8ca;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+.film-review-card__link {
+  margin-top: auto;
+  color: #e8c16a !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.film-review-card a:focus-visible {
+  outline: 2px solid #e8c16a;
+  outline-offset: 4px;
+}
+
 .substack-feature h2 {
   margin: 0.2rem 0 0.8rem;
 }
@@ -1147,6 +1265,10 @@ figure.highlight code {
 
   .spotify-feature,
   .substack-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .film-review-grid {
     grid-template-columns: 1fr;
   }
 
