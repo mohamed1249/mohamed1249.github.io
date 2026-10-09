@@ -1,0 +1,38 @@
+---
+layout: single
+title: "Explore the Data"
+permalink: /books/becoming-a-data-head/explore-the-data/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>This chapter’s key idea is: <b>EDA is not a checkpoint; it’s an ongoing loop.</b></li>
+        <li>A good data team rarely moves cleanly from “EDA→modeling ↔ done.” You inspect something, discover an issue, rethink the question, transform the data, revisit an earlier assumption, and repeat.</li>
+        <li>Your two notes are especially useful:
+            <ul>
+                <li><b>Correlation has two practical jobs:</b> finding potentially predictive relationships and identifying redundant variables.</li>
+                <li><b>Never trust correlation as a number alone. Visualize it.</b> Pearson correlation mainly captures  <i>linear</i>  association, so very different relationships can produce misleadingly similar—or surprisingly weak—correlation values.</li>
+            </ul>
+        </li>
+        <li>One nuance I’d attach to the first note: two highly correlated variables do <b>not always</b> contain the same information. Square feet vs. square meters basically do because one is an exact transformation of the other. But two variables can be strongly correlated while each still contributes useful independent information.</li>
+        <li>The broader note I’d keep: <b>EDA is where you argue with your assumptions visually—not just calculate statistics.</b></li>
+        <li><b>Correlation gives you a relationship to investigate, not a causal story to believe.</b></li>
+        <li>The examples show the three main possibilities really well:
+            <ul>
+                <li><b>Confounding:</b> ice cream sales and shark attacks both rise because of summer.</li>
+                <li><b>Reverse causality:</b> maybe higher home values improve schools, not just the other way around.</li>
+                <li><b>Feedback loops:</b> both variables may influence each other over time.</li>
+            </ul>
+        </li>
+        <li>And often there are <b>other variables outside the dataset</b>, which is the uncomfortable part people forget.</li>
+        <li>One nuance from the screenshot is worth preserving too:
+<b>“Correlation does not imply causation” should not become “correlation is meaningless.”</b></li>
+        <li>Sometimes a relationship really is causal. The correct mindset is not to dismiss it automatically, but to ask what evidence would support the causal claim.</li>
+        <li><b>EDA can generate problems, not just investigate predefined ones.
+</b>A data scientist can notice an anomaly, pattern, or strange relationship first, then formulate the business or research question around it.</li>
+        <li><b>Use correlation to discover. Use causal reasoning to explain. Don’t confuse the two.</b></li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

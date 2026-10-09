@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Forward",
+    "slug": "forward",
+    "number": 1
+  },
+  {
+    "title": "Introduction",
+    "slug": "introduction",
+    "number": 2
+  },
+  {
+    "title": "Thinking Like a Data Head",
+    "slug": "thinking-like-a-data-head",
+    "number": 3
+  },
+  {
+    "title": "What is the problem",
+    "slug": "what-is-the-problem",
+    "number": 4
+  },
+  {
+    "title": "What is Data",
+    "slug": "what-is-data",
+    "number": 5
+  },
+  {
+    "title": "Prepare to Think Statistically",
+    "slug": "prepare-to-think-statistically",
+    "number": 6
+  },
+  {
+    "title": "Argue with the Data",
+    "slug": "argue-with-the-data",
+    "number": 7
+  },
+  {
+    "title": "Explore the Data",
+    "slug": "explore-the-data",
+    "number": 8
+  },
+  {
+    "title": "Examine the Probabilities",
+    "slug": "examine-the-probabilities",
+    "number": 9
+  },
+  {
+    "title": "Challenge the Statistics",
+    "slug": "challenge-the-statistics",
+    "number": 10
+  },
+  {
+    "title": "Understanding the Data Scientists Toolbox",
+    "slug": "understanding-the-data-scientists-toolbox",
+    "number": 11
+  },
+  {
+    "title": "Search for Hidden Groups",
+    "slug": "search-for-hidden-groups",
+    "number": 12
+  },
+  {
+    "title": "Understand the Regression Model",
+    "slug": "understand-the-regression-model",
+    "number": 13
+  },
+  {
+    "title": "Understand the Classification Model",
+    "slug": "understand-the-classification-model",
+    "number": 14
+  },
+  {
+    "title": "Understand Text Analytics",
+    "slug": "understand-text-analytics",
+    "number": 15
+  },
+  {
+    "title": "Conceptualize Deep Learning",
+    "slug": "conceptualize-deep-learning",
+    "number": 16
+  },
+  {
+    "title": "Watch Out for Pitfalls",
+    "slug": "watch-out-for-pitfalls",
+    "number": 17
+  },
+  {
+    "title": "Know the People and Personalities",
+    "slug": "know-the-people-and-personalities",
+    "number": 18
+  },
+  {
+    "title": "What's Next",
+    "slug": "whats-next",
+    "number": 19
+  }
+]

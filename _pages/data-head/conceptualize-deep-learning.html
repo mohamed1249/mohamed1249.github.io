@@ -1,0 +1,44 @@
+---
+layout: single
+title: "Conceptualize Deep Learning"
+permalink: /books/becoming-a-data-head/conceptualize-deep-learning/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>This chapter’s main idea is: <b>deep learning is powerful because it can learn representations automatically, but that doesn’t make it magic.</b></li>
+        <li>One personal note:
+            <ul>
+                <li><b>Deep learning can reduce or replace a lot of manual feature engineering.</b> </li>
+            </ul>
+        </li>
+        <li>That is one of its biggest advantages. Instead of humans explicitly designing every useful feature, deeper layers can learn increasingly useful representations from raw inputs. But feature engineering doesn’t completely disappear—data selection, preprocessing, architecture, labels, and problem framing still matter.</li>
+        <li>A second note:
+            <ul>
+                <li><b>Pretrained transformers can work well on small datasets. </b></li>
+            </ul>
+        </li>
+        <li>The important mechanism is <b>transfer learning</b>. A huge model learns general representations from a massive dataset first, then you fine-tune it using a much smaller task-specific dataset. That is why modern NLP can work surprisingly well without millions of labeled examples for every new problem.</li>
+        <li>Other strong points from the chapter:
+            <ul>
+                <li>Neural networks are inspired by brains, but <b>they are not little artificial brains</b>. Fundamentally, they are very large mathematical functions.</li>
+                <li>Training starts with weights, makes predictions, measures error, then <b>backpropagation adjusts those weights repeatedly</b>.</li>
+                <li>Neural networks can be viewed, very loosely, as layers of simpler predictive transformations stacked together.</li>
+                <li>More depth gives models the ability to learn increasingly complex representations, but also makes them harder to interpret—hence the <b>black-box tradeoff</b>.</li>
+                <li>Larger neural networks tend to benefit much more from <b>large datasets</b> than traditional ML methods.</li>
+                <li><b>Transfer learning</b> is one of the main ways to make deep learning practical when labeled data is limited.</li>
+                <li>For <b>structured/tabular data</b>, deep learning is often not automatically better. Tree-based methods can still outperform it.</li>
+                <li>If a sophisticated model performs terribly, don’t immediately reach for something even more sophisticated. First question the <b>data, preprocessing, features, and even whether the relationship you’re trying to predict exists at all.</b></li>
+            </ul>
+        </li>
+        <li>I really like this as the chapter’s takeaway:
+            <ul>
+                <li><b>Deep learning’s superpower is not that it “thinks like a brain.” It is that it can learn useful representations that humans would otherwise have to engineer manually.</b></li>
+            </ul>
+        </li>
+        <li>One more thing worth tagging for later: the book’s discussion of AI/AGI here is clearly from an earlier AI era. The technical hierarchy <b>AI</b>→<b> ML </b>↔<b> deep learning</b> still works as a rough taxonomy, but some of its commentary about the pace of AI progress has aged much faster than the statistics chapters.</li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

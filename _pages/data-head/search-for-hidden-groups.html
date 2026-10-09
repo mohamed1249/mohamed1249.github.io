@@ -1,0 +1,35 @@
+---
+layout: single
+title: "Search for Hidden Groups"
+permalink: /books/becoming-a-data-head/search-for-hidden-groups/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>The chapter’s core idea is that unsupervised learning is powerful, but it is not “let the machine discover the truth.” It is still shaped by human choices.</li>
+        <li>My personal note:
+<b>Before PCA, remove or question irrelevant features.
+</b>Because PCA looks for directions of high variance, not “business importance.” So an irrelevant feature with huge variance can still dominate the components and mislead the analysis.</li>
+        <li>A few strong ideas from this chapter:
+            <ul>
+                <li><b>Unsupervised learning searches for hidden structure when predefined labels don’t exist.</b> </li>
+                <li><b>PCA = dimensionality reduction:</b> compress many correlated features into fewer components while preserving as much information as possible.</li>
+                <li><b>No variation = no information.</b></li>
+                <li>PCA effectively tries to find a more informative “rotation” of the data.</li>
+                <li><b>High variance is only a proxy for importance, not importance itself.</b></li>
+                <li>Principal components can be hard to interpret; forcing catchy meanings onto them can create fake stories.</li>
+                <li>In clustering, <b>scaling matters</b>. A large-scale variable can dominate distance calculations.</li>
+                <li>Clustering has <b>no single correct answer</b>. Different algorithms, distance measures, scaling choices, and numbers of clusters can produce different groupings.</li>
+                <li>So ironically, <b>unsupervised learning still requires a lot of supervision.</b></li>
+            </ul>
+        </li>
+        <li>And that opening quote is excellent:
+“If you mine the data hard enough, you can find messages from God.”
+Basically: if you search long enough for patterns, you will eventually find something that looks meaningful—even when it isn’t.</li>
+        <li>The cleanest takeaway for me:
+<b>Hidden patterns are discovered partly by the algorithm and partly created by the choices of the analyst.</b> </li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

@@ -1,0 +1,18 @@
+{% assign chapter_slug = page.url | split: '/' | last %}
+{% for chapter in site.data.data_head_chapters %}
+  {% if chapter.slug == chapter_slug %}
+    {% assign chapter_index = forloop.index0 %}
+    {% assign previous_index = chapter_index | minus: 1 %}
+    {% assign next_index = chapter_index | plus: 1 %}
+    {% assign previous_chapter = site.data.data_head_chapters[previous_index] %}
+    {% assign next_chapter = site.data.data_head_chapters[next_index] %}
+    <nav class="reading-navigation" aria-label="{% if include.position == 'bottom' %}Continue reading{% else %}Chapter navigation{% endif %}">
+      <a class="reading-navigation__index" href="{{ '/books/becoming-a-data-head/' | relative_url }}">All reading notes</a>
+      <span class="reading-navigation__progress">Note {{ chapter.number }} of {{ site.data.data_head_chapters.size }}</span>
+      <div class="reading-navigation__steps">
+        {% if chapter_index > 0 %}<a href="{{ '/books/becoming-a-data-head/' | append: previous_chapter.slug | append: '/' | relative_url }}">&larr; {{ previous_chapter.title }}</a>{% endif %}
+        {% if next_chapter %}<a href="{{ '/books/becoming-a-data-head/' | append: next_chapter.slug | append: '/' | relative_url }}">{{ next_chapter.title }} &rarr;</a>{% endif %}
+      </div>
+    </nav>
+  {% endif %}
+{% endfor %}

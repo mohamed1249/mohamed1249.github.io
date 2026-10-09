@@ -1,0 +1,68 @@
+---
+layout: single
+title: "Understand the Classification Model"
+permalink: /books/becoming-a-data-head/understand-the-classification-model/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>This chapter is really about <b>classification as decision-making under uncertainty</b>, not just “predicting classes.”</li>
+        <li>The strongest ideas:
+            <ul>
+                <li><b>Logistic regression outputs probabilities</b>, not magical class labels. The sigmoid/logistic function squeezes the linear score into the range 0–1.</li>
+                <li>The nice thing about logistic regression is that it gives you both:
+                    <ul>
+                        <li>a prediction,</li>
+                        <li>and relatively interpretable coefficients.</li>
+                    </ul>
+                </li>
+                <li><b>Linear regression is unbounded</b>, so it is generally unsuitable for probabilities/classes.</li>
+            </ul>
+        </li>
+        <li>Then the chapter moves into trees and ensembles:
+            <ul>
+                <li><b>Decision trees</b> are intuitive and useful for exploring relationships between inputs and an outcome.</li>
+                <li><b>Random forests</b> average many trees.</li>
+                <li><b>Gradient boosted trees</b> build trees sequentially, with later trees correcting earlier mistakes.</li>
+                <li>That extra predictive power usually comes with a cost: <b>less interpretability</b>.</li>
+            </ul>
+        </li>
+        <li>Two highlighted lines here are especially important:
+            <ul>
+                <li><b>Critical thinking about the data and features is something software cannot do for you.</b></li>
+                <li>and:</li>
+                <li><b>Testing on the training set is one of the biggest sins in machine learning.</b></li>
+            </ul>
+        </li>
+        <li>Those fit perfectly with earlier chapters: sophisticated algorithms do not rescue bad reasoning or bad validation.</li>
+        <li>The most important part of this chapter to me is the <b>decision threshold</b>:
+            <ul>
+                <li><b>A classification model usually gives you a probability. Turning that probability into a class is a human/business decision.</b></li>
+                <li>The default 0.5 threshold is not sacred.</li>
+                <li>If false negatives are very costly, you may lower the threshold to catch more positives.</li>
+                <li>If false positives are expensive, you may raise it.</li>
+            </ul>
+        </li>
+        <li>That leads directly to the metrics point:
+            <ul>
+                <li><b>Accuracy is often a bad metric</b>, especially with imbalanced classes.</li>
+            </ul>
+        </li>
+        <li>You usually care more about things like:
+            <ul>
+                <li><b>Recall / sensitivity</b> — how many true positives you caught</li>
+                <li><b>Specificity</b> — how many true negatives you correctly rejected</li>
+                <li><b>Precision</b> — when you predict positive, how often you are right</li>
+            </ul>
+        </li>
+        <li>The clean takeaway I’d save is:
+            <ul>
+                <li><b>The model estimates probability; humans decide what action that probability should trigger.</b></li>
+                <li>That’s a very “Data Head” idea because it puts business cost and context above blindly accepting a model’s default settings.</li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

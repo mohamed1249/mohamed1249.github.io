@@ -1,0 +1,46 @@
+---
+layout: single
+title: "Understand Text Analytics"
+permalink: /books/becoming-a-data-head/understand-text-analytics/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>This chapter is basically about one big idea:
+            <ul>
+                <li><b>Computers do not understand language the way humans do — they turn language into numbers and work from those representations.</b></li>
+            </ul>
+        </li>
+        <li>The chapter walks through that progression pretty cleanly:
+            <ul>
+                <li><b>Bag of Words:</b> represent text by word counts. Simple, but it throws away order and context.</li>
+                <li><b>Stop words / stemming / lemmatization:</b> preprocessing choices that try to reduce noise and normalize words.</li>
+                <li><b>N-grams:</b> restore some local context by keeping short word sequences like “loves hotdogs” instead of isolated words.</li>
+                <li><b>Word embeddings:</b> represent words as vectors so similar meanings end up near each other numerically.</li>
+                <li><b>Topic modeling:</b> unsupervised grouping of documents/topics; one document can belong partly to several topics.</li>
+                <li><b>Naive Bayes:</b> a probabilistic classification approach that works especially well as a simple baseline for text problems like spam detection.</li>
+            </ul>
+        </li>
+        <li><b>Word clouds are mostly decorative.</b> They look nice, but they’re weak for serious analysis because area is hard to compare precisely. A bar chart usually communicates frequency better.</li>
+        <li><b>Text preprocessing changes meaning.</b> Removing stop words or stemming blindly can destroy useful context. So even preprocessing is a modeling decision, not just cleanup.</li>
+        <li><b>Embeddings are powerful because they try to encode meaning, not just frequency.</b> The chapter’s PCA comparison is good: embedding dimensions behave a bit like latent dimensions that capture hidden semantic structure.</li>
+        <li>But there’s an important limitation in your highlighted section:
+            <ul>
+                <li><b>You need enough text to learn useful embeddings.</b> Small datasets may not contain enough variation or context to produce meaningful representations.</li>
+            </ul>
+        </li>
+        <li>The chapter’s final line is probably the strongest summary:
+            <ul>
+                <li><b>Computers don’t understand language as humans do — to a computer, it’s all numbers.</b></li>
+            </ul>
+        </li>
+        <li>And there’s a broader takeaway here that connects to the whole book:
+            <ul>
+                <li><b>Every NLP model depends on how we choose to translate language into numbers.</b> The representation determines what information the model can see — and what it loses.</li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

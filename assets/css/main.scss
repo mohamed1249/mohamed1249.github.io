@@ -963,6 +963,122 @@ blockquote {
   border-radius: 8px;
 }
 
+.reading-shelf {
+  margin: 1.5rem 0 2.4rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--ma-line);
+  border-top: 3px solid var(--ma-green);
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(238, 246, 233, 0.85), rgba(255, 253, 248, 0.92));
+}
+
+.reading-shelf h2 {
+  margin-top: 0;
+}
+
+.reading-shelf__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reading-chapters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 0.8rem;
+  margin: 1.4rem 0 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.reading-chapters li {
+  margin: 0;
+}
+
+.reading-chapters a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 100%;
+  padding: 1.2rem;
+  border: 1px solid var(--ma-line);
+  border-radius: 8px;
+  background: var(--ma-panel);
+  text-decoration: none;
+  transition: background 150ms ease, border-color 150ms ease;
+}
+
+.reading-chapters a:hover {
+  background: #eef6e9;
+  border-color: var(--ma-green);
+}
+
+.reading-chapters__number {
+  color: var(--ma-muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.reading-chapters__arrow {
+  margin-left: auto;
+}
+
+.reading-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem 1.5rem;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--ma-line);
+  border-bottom: 1px solid var(--ma-line);
+  font-size: 0.8rem;
+}
+
+.reading-navigation__progress {
+  color: var(--ma-muted);
+}
+
+.reading-navigation__steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.8rem 1.5rem;
+  width: 100%;
+}
+
+.reading-notes {
+  max-width: 48rem;
+  margin: 2rem auto;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+
+.reading-notes > ul {
+  padding-left: 1.2rem;
+}
+
+.reading-notes li {
+  margin-bottom: 0.9rem;
+}
+
+.reading-notes ul ul {
+  margin-top: 0.8rem;
+  padding-left: 1.1rem;
+  border-left: 1px solid var(--ma-line);
+}
+
+.reading-notes img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border: 1px solid var(--ma-line);
+  border-radius: 6px;
+}
+
 .music-thread {
   max-width: 52rem;
   color: var(--ma-muted);

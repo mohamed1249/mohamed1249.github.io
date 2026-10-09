@@ -1,0 +1,35 @@
+---
+layout: single
+title: "Examine the Probabilities"
+permalink: /books/becoming-a-data-head/examine-the-probabilities/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>This chapter is mainly about learning to <b>reason with probability instead of just reading percentages</b>.</li>
+        <li>The strongest ideas from your screenshots are:
+            <ul>
+                <li><b>Conditional probability matters:</b> P(A | B) asks how likely A is once B is known.</li>
+                <li><b>Independence is an assumption, not a default.</b> Two events are independent only when knowing one gives you no information about the other.</li>
+                <li>For events happening together:
+                    <ul>
+                        <li>if independent, multiply probabilities;</li>
+                        <li>in general, use the conditional version.</li>
+                    </ul>
+                </li>
+                <li><b>Don’t swap dependencies:</b> P(A | B) is usually not the same as P(B | A). This is one of the most common probability mistakes.</li>
+                <li><b>All probabilities are conditional in some sense.</b> They depend on assumptions, context, population, measurement quality, and circumstances.</li>
+                <li><b>Calibration gives probabilities meaning:</b> if something is predicted at 75%, it should happen roughly 75% of the time across many similar predictions.</li>
+                <li>People can also <b>game probabilities through selection bias</b>—for example, only taking easy cases and then advertising a high success rate.</li>
+            </ul>
+        </li>
+        <li><b>Rare events can, and do, happen.
+</b>Low probability does <b>not</b> mean impossible. If enough opportunities exist, even very unlikely outcomes eventually appear.</li>
+        <li>The virus-test example is also excellent because it shows why <b>base rates matter</b>: even a very accurate test can produce a surprisingly large number of false positives when the thing being tested for is rare.</li>
+        <li>I’d compress the chapter into:
+<b>A probability without its conditions, assumptions, base rate, and calibration can be dangerously misleading.</b></li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

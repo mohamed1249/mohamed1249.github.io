@@ -1,0 +1,38 @@
+---
+layout: single
+title: "Understand the Regression Model"
+permalink: /books/becoming-a-data-head/understand-the-regression-model/
+classes: wide
+---
+{% include data-head-navigation.html %}
+<div class="reading-notes">
+<ul>
+        <li>This chapter is less about “what regression is” and more about <b>how regression fails and how to reason about it</b>.</li>
+        <li>The main points I’d keep:
+            <ul>
+                <li><b>A perfect </b>R<sup>2</sup> should make you suspicious. Real data has unexplained variation. If R<sup>2</sup> = 1, check for leakage, bad preprocessing, or some other mistake.</li>
+                <li><b>Statistical significance is not practical significance.</b> A coefficient can be statistically different from zero but still too small to matter.</li>
+                <li><b>Multicollinearity hurts interpretability.</b> If predictors are strongly correlated, it becomes hard to isolate the effect of one while “holding the others constant.”</li>
+                <li><b>Data leakage can make a model look brilliant for the wrong reason.</b> If you accidentally include information that would not be available at prediction time, your validation becomes fiction.</li>
+                <li><b>Extrapolation is dangerous.</b> A model is safest inside the range and context it learned from. Outside that range, equations will still return numbers—even stupid ones.</li>
+                <li>The highlighted COVID / housing-crash example is especially important:
+                    <ul>
+                        <li><b>the world can change while your model stays frozen.</b></li>
+                    </ul>
+                </li>
+                <li><b>Don’t fit a straight line through a banana.</b> Nice quote, and a good reminder that many relationships are nonlinear.</li>
+                <li><b>LASSO and Ridge help with many or correlated predictors</b>, but they do not magically fix bad data or a bad problem formulation.</li>
+                <li><b>Train/test splits are the minimum defense against overfitting.</b></li>
+            </ul>
+        </li>
+        <li>Your strongest highlighted takeaway here is probably:
+<b>The model has no context for changes taking place in the world.
+</b>That ties back nicely to the earlier theme that models are not intelligence in the human sense. They encode relationships learned from past data, under past conditions.</li>
+        <li>I’d summarize the chapter as:
+<b>A regression model can be mathematically correct and still be practically wrong because of leakage, extrapolation, multicollinearity, changing context, or a bad functional form.</b></li>
+        <li>And one small extension I’d add:
+<b>Validation is not just about whether the model predicts well; it’s about whether it predicts well under the conditions in which you’ll actually use it.</b></li>
+
+    </ul>
+</div>
+{% include data-head-navigation.html position="bottom" %}

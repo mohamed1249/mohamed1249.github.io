@@ -8,6 +8,15 @@ classes: wide
 Books, thinkers, worlds, and references that feed the work: AI, data, philosophy, psychology, mythology, fantasy, poetry, and aesthetics.
 </p>
 
+## Open Reading Notes
+
+<section class="reading-shelf">
+  <p class="kicker">Data + critical thinking · 19 chapter notes</p>
+  <h2>Becoming a Data Head</h2>
+  <p>My notes on asking better questions, challenging statistics, understanding models, and keeping the humans in data work.</p>
+  <a class="btn btn--primary" href="/books/becoming-a-data-head/">Explore the reading notes</a>
+</section>
+
 ## Shelves
 
 - **AI and data**: technical books, papers, courses, and practical references.

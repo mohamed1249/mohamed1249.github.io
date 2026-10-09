@@ -109,3 +109,12 @@ Longer writing belongs here: psychology, philosophy, mythology, fantasy, books, 
   </p>
   <a class="btn btn--primary" href="https://www.goodreads.com/user/show/109334423-salam">Read my Goodreads reviews</a>
 </article>
+
+## Reading Notes
+
+<section class="reading-shelf">
+  <p class="kicker">From my reading desk · Data + critical thinking</p>
+  <h2>Becoming a Data Head</h2>
+  <p>A public notebook of chapter-by-chapter reflections on data, statistics, machine learning, and asking better questions.</p>
+  <a class="btn btn--primary" href="/books/becoming-a-data-head/">Read the notes</a>
+</section>

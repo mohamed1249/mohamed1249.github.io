@@ -1,0 +1,29 @@
+---
+title: "Becoming a Data Head — Reading Notes"
+permalink: /books/becoming-a-data-head/
+classes: wide
+excerpt: "Chapter-by-chapter reading notes on data, statistical thinking, machine learning, and asking better questions."
+---
+<section class="reading-shelf">
+  <p class="kicker">From my reading desk · Data + critical thinking</p>
+  <h2>Ask better questions. Argue with the data.</h2>
+  <p>My chapter-by-chapter reading notes and reflections on <em>Becoming a Data Head</em>: the questions, warnings, and ideas I want to carry into the work.</p>
+  <p>These are notes on the book, rather than the book itself.</p>
+  <div class="reading-shelf__actions">
+    <a class="btn btn--primary" href="{{ '/books/becoming-a-data-head/forward/' | relative_url }}">Start reading</a>
+    <a class="text-link" href="{{ '/assets/downloads/becoming-a-data-head-notes.html' | relative_url }}" download>Download the combined notes (HTML)</a>
+  </div>
+</section>
+<h2 id="chapter-index">The reading trail</h2>
+<p>{{ site.data.data_head_chapters.size }} notes, in the order of the original export. Pick a topic or read from the beginning.</p>
+<ol class="reading-chapters">
+  {% for chapter in site.data.data_head_chapters %}
+    <li>
+      <a href="{{ '/books/becoming-a-data-head/' | append: chapter.slug | append: '/' | relative_url }}">
+        <span class="reading-chapters__number">{{ chapter.number | prepend: '0' | slice: -2, 2 }}</span>
+        <strong>{{ chapter.title }}</strong>
+        <span class="reading-chapters__arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    </li>
+  {% endfor %}
+</ol>
