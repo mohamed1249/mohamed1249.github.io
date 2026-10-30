@@ -32,19 +32,19 @@ author_profile: false
 
 <section class="proof-strip" aria-label="Portfolio summary">
   <div>
-    <strong>63</strong>
+    <strong>{{ site.projects.size }}</strong>
     <span>documented projects</span>
   </div>
   <div>
-    <strong>29</strong>
+    <strong>{{ site.projects | where: "field", "ML" | size }}</strong>
     <span>machine-learning builds</span>
   </div>
   <div>
-    <strong>11</strong>
+    <strong>{{ site.projects | where: "field", "EDA" | size }}</strong>
     <span>EDA and dashboard projects</span>
   </div>
   <div>
-    <strong>13</strong>
+    <strong>{{ site.projects | where: "field", "AI" | size }}</strong>
     <span>AI and LLM systems</span>
   </div>
 </section>
